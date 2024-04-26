@@ -1,11 +1,9 @@
 package Runner;
 
 import io.cucumber.testng.AbstractTestNGCucumberTests;
-import io.cucumber.testng.CucumberOptions;
 
 
-
-@CucumberOptions(
+@io.cucumber.testng.CucumberOptions(
 		features= {"src/test/resources/Features"},
 		glue= {"StepDefinitions","Hooks"},
 
@@ -16,13 +14,8 @@ import io.cucumber.testng.CucumberOptions;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"rerun:target/rerun.txt"},
 				publish=true,
-				tags="@tag"
+				tags="not @skip"
 )
-
-//@CucumberOptions(tags = "@tag", features = "src/test/resources/Features", glue = {"StepDefinitions","Hooks"},plugin = {
-//		"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:", "pretty",
-//		"io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm", "json:target/cucumber-reports/cucumber.json",
-//		"html:target/CucumberTestReport.html", "junit:target/report.html" })
 
 public class MyTestRunner extends AbstractTestNGCucumberTests{
 
