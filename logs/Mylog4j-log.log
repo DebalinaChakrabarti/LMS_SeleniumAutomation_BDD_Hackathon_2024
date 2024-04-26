@@ -1,0 +1,259 @@
+[INFO ]2024-04-24 20:18:07.958[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-04-24 20:18:07.966[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-04-24 20:18:07.969[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.969[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:07.969[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.971[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:07.972[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.972[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:07.973[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.988[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 15 ms.
+[INFO ]2024-04-24 20:18:07.990[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.990[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:07.992[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.992[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:07.994[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:07.994[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:07.999[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:08.000[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-24 20:18:08.001[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:08.002[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:08.003[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:08.004[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:08.004[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:08.004[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:08.009[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 4 ms.
+[INFO ]2024-04-24 20:18:08.011[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-24 20:18:08.012[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:08.014[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:08.014[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-24 20:18:08.015[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-24 20:18:08.027[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\nsatc\AppData\Local\Temp\testng-eclipse--46241436\testng-customsuite.xml
+
+[INFO ]2024-04-24 20:18:08.060[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+[WARN ]2024-04-24 20:18:09.029[main]org.testng.internal.Utils1)-The test method 'io.cucumber.testng.AbstractTestNGCucumberTests.runScenario' will be skipped since its data provider 'scenarios' returned an empty array or iterator. 
+[INFO ]2024-04-24 20:18:09.316[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@58740366: 210 ms
+[INFO ]2024-04-24 20:18:09.318[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@47be0f9b: 1 ms
+[INFO ]2024-04-24 20:18:09.341[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@5d497a91: 23 ms
+[INFO ]2024-04-24 20:18:09.355[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@33634f04: 13 ms
+[INFO ]2024-04-24 20:18:09.372[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@765ffb14: 17 ms
+[INFO ]2024-04-24 20:18:09.372[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@57562473: 0 ms
+[INFO ]2024-04-25 15:40:15.161[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 15:40:15.198[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 15:44:06.855[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 15:44:06.890[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:11:57.067[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:11:57.099[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:12:49.260[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:12:49.288[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:18:51.711[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:18:51.767[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:19:42.379[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:19:42.409[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:21:33.835[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:21:33.880[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:22:20.714[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:22:20.747[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:22:40.098[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:22:40.137[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:23:12.234[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:23:12.281[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:23:49.896[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.903[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 2 ms.
+[INFO ]2024-04-25 16:23:49.905[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.905[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.906[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.906[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.906[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.907[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.908[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.921[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+[INFO ]2024-04-25 16:23:49.923[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.923[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.925[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.925[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.925[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.925[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.928[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.928[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.929[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.929[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.930[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.930[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.931[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.931[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.939[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 6 ms.
+[INFO ]2024-04-25 16:23:49.940[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 16:23:49.941[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.941[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.942[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:23:49.942[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:23:49.952[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\nsatc\AppData\Local\Temp\testng-eclipse--1703131803\testng-customsuite.xml
+
+[INFO ]2024-04-25 16:23:49.979[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ]2024-04-25 16:23:51.433[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:23:51.475[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:23:57.746[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@492c9892: 229 ms
+[INFO ]2024-04-25 16:23:57.778[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@4f676900: 31 ms
+[INFO ]2024-04-25 16:23:57.791[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@528f5b7f: 13 ms
+[INFO ]2024-04-25 16:23:57.804[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@fd5689d: 13 ms
+[INFO ]2024-04-25 16:23:57.821[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@4272d8cf: 17 ms
+[INFO ]2024-04-25 16:23:57.821[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@4e96cb04: 0 ms
+[INFO ]2024-04-25 16:25:00.709[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.717[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 3 ms.
+[INFO ]2024-04-25 16:25:00.720[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.720[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.721[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.721[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.722[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.722[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.724[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.735[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 11 ms.
+[INFO ]2024-04-25 16:25:00.738[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.738[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.739[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.740[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.740[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.740[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.743[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.743[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.744[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.744[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.745[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.746[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.746[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.746[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.752[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+[INFO ]2024-04-25 16:25:00.753[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 16:25:00.754[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.754[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.754[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 16:25:00.754[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 16:25:00.762[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\nsatc\AppData\Local\Temp\testng-eclipse-954652302\testng-customsuite.xml
+
+[INFO ]2024-04-25 16:25:00.793[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 4 ms.
+[INFO ]2024-04-25 16:25:02.033[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:25:02.059[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:25:09.568[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@7ee2423: 143 ms
+[INFO ]2024-04-25 16:25:09.591[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@56c6d515: 22 ms
+[INFO ]2024-04-25 16:25:09.608[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@fd5689d: 16 ms
+[INFO ]2024-04-25 16:25:09.621[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@69bc4024: 13 ms
+[INFO ]2024-04-25 16:25:09.637[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@c190cfc: 16 ms
+[INFO ]2024-04-25 16:25:09.638[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@77ce8bc5: 0 ms
+[INFO ]2024-04-25 16:25:36.235[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:25:36.260[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:26:35.022[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:26:35.115[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:27:30.684[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:27:30.721[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 16:29:17.834[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 16:29:17.862[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:21:34.390[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:21:34.517[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:24:57.142[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:24:57.184[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:25:59.553[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:25:59.608[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:31:34.474[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:31:34.522[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:33:17.299[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:33:17.337[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:33:59.882[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:33:59.917[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:57:04.299[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:57:04.352[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 20:58:18.554[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 20:58:18.602[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 21:10:02.162[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 21:10:02.214[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 21:10:46.237[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-04-25 21:10:46.243[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 21:10:46.245[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.246[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 21:10:46.247[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.248[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.249[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.250[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.252[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.265[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 13 ms.
+[INFO ]2024-04-25 21:10:46.267[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.267[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.269[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.270[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.270[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.270[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.273[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.273[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.273[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.274[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.275[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.276[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.276[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.276[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.283[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 5 ms.
+[INFO ]2024-04-25 21:10:46.284[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 21:10:46.285[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.286[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.286[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:10:46.286[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:10:46.297[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\nsatc\AppData\Local\Temp\testng-eclipse--1598587748\testng-customsuite.xml
+
+[INFO ]2024-04-25 21:10:46.332[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 6 ms.
+[INFO ]2024-04-25 21:10:48.449[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 21:10:48.487[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 21:10:58.063[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@73be4cdd: 249 ms
+[INFO ]2024-04-25 21:10:58.097[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@2cadcff6: 33 ms
+[INFO ]2024-04-25 21:10:58.119[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@5eb2972f: 22 ms
+[INFO ]2024-04-25 21:10:58.134[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@528f5b7f: 15 ms
+[INFO ]2024-04-25 21:10:58.153[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@d512c1: 19 ms
+[INFO ]2024-04-25 21:10:58.153[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@578b2dec: 0 ms
+[INFO ]2024-04-25 21:12:12.553[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 1 ms.
+[INFO ]2024-04-25 21:12:12.561[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 21:12:12.564[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.564[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.565[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.565[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.566[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.567[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.571[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.586[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 14 ms.
+[INFO ]2024-04-25 21:12:12.588[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.589[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.590[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.590[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.591[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.592[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.594[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.595[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.596[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.596[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.598[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.598[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.598[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.598[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.607[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 8 ms.
+[INFO ]2024-04-25 21:12:12.608[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 1 ms.
+[INFO ]2024-04-25 21:12:12.609[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.609[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.609[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.collectMethodsByGroup() took 0 ms.
+[INFO ]2024-04-25 21:12:12.610[main]org.testng.internal.Utils1)-[Utils] MethodGroupsHelper.sortMethods() took 0 ms.
+[INFO ]2024-04-25 21:12:12.620[main]org.testng.internal.Utils1)-[TestNG] Running:
+  C:\Users\nsatc\AppData\Local\Temp\testng-eclipse-412433456\testng-customsuite.xml
+
+[INFO ]2024-04-25 21:12:12.653[main]org.testng.internal.Utils1)-[Utils] DynamicGraphHelper.createDynamicGraph() took 5 ms.
+[INFO ]2024-04-25 21:12:14.455[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 21:12:14.496[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 21:12:26.986[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.jq.Main@5d32c1c7: 137 ms
+[INFO ]2024-04-25 21:12:27.019[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.FailedReporter@fd5689d: 32 ms
+[INFO ]2024-04-25 21:12:27.048[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.XMLReporter@24f177f5: 28 ms
+[INFO ]2024-04-25 21:12:27.060[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.EmailableReporter2@20184ade: 12 ms
+[INFO ]2024-04-25 21:12:27.084[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.reporters.JUnitReportReporter@77204651: 23 ms
+[INFO ]2024-04-25 21:12:27.084[main]org.testng.internal.Utils1)-[TestNG] Time taken by org.testng.internal.ExitCodeListener@51cca357: 0 ms
+[INFO ]2024-04-25 21:20:46.561[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 21:20:46.613[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe
+[INFO ]2024-04-25 21:21:43.299[main]io.github.bonigarcia.wdm.WebDriverManager1)-Using msedgedriver 124.0.2478.51 (resolved driver for Edge 124)
+[INFO ]2024-04-25 21:21:43.382[main]io.github.bonigarcia.wdm.WebDriverManager1)-Exporting webdriver.edge.driver as C:\Users\nsatc\.cache\selenium\msedgedriver\win64\124.0.2478.51\msedgedriver.exe

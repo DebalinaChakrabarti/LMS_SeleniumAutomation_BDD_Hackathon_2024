@@ -1,17 +1,22 @@
 package DriverFactory;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.edge.EdgeDriver;
+import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 
 	public WebDriver driver;
-	
+	public final static int TIMEOUT = 50;
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	
 	/**
@@ -26,8 +31,10 @@ public class DriverFactory {
 		System.out.println("browser value is:"+browser);
 //		browser = System.getenv("BROWSER");
 		if(browser.equals("chrome"))
-		{
-			WebDriverManager.chromedriver().setup();
+		{	
+			ChromeOptions opt = new ChromeOptions();
+//			WebDriverManager.chromedriver().setup();
+			WebDriverManager.chromedriver().clearDriverCache().setup();
 			//System.setProperty("webdriver.chrome.driver","../../Downloads/chromedriver-mac-x64/chromedriver");
 			//System.out.println("Updating Chrome Version");
 
@@ -36,8 +43,18 @@ public class DriverFactory {
 			//options.addArguments("--no-sandbox");
 			//options.addArguments("--disable-dev-shm-usage");
 			//options.addArguments("--headless");
-			tlDriver.set(new ChromeDriver());
+			tlDriver.set(new ChromeDriver(opt));
+			
 
+			
+		}
+		else if(browser.equals("edge"))
+		{
+			EdgeOptions opt = new EdgeOptions();
+			opt.addArguments("--guest");
+//			opt.addArguments("headless");
+			WebDriverManager.edgedriver().setup();
+			tlDriver.set(new EdgeDriver(opt));
 			
 		}
 		else if(browser.equals("firefox"))
@@ -54,6 +71,9 @@ public class DriverFactory {
 		}
 			
 		getDriver().manage().deleteAllCookies();
+
+		//new WebDriverWait(driver, Duration.ofSeconds(TIMEOUT));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
 		getDriver().manage().window().maximize();
 		return getDriver();
 	}
