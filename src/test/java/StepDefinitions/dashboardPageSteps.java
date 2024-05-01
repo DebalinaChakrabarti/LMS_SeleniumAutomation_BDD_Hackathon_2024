@@ -15,7 +15,7 @@ public class dashboardPageSteps {
 	private dashboardPage dashboardpg = new dashboardPage(DriverFactory.getDriver());
 
 	@Then("Admin should see manage program as header")
-	public void Admin_should_land_on_dashboard_page() {
+	public void Admin_should_land_on_dashboard_page() throws InterruptedException {
 		Assert.assertTrue(dashboardpg.getManageprogrameBtnLabelText().trim().contains("Manage Program"),
 				"'Dashboard - Manage Program' page is not displayed");
 		System.out.println("'Dashboard - Manage Program' page is displayed");

@@ -1,0 +1,2988 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>Extent</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">DSAlgo Project Report</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">May 1, 2024 03:17:45 PM</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('exception-view')">
+<a id="nav-exception" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bug"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>May 1, 2024 03:17:45 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>May 1, 2024 03:22:16 PM</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>7</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>1</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='87%'>
+<b>7</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='12%'><b>1</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='96%'><b>51</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='3%'><b>2</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='99%'><b>228</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>2</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"Home Page Verification":13.525,"Dashboard Verification":19.118,"Delete Program details":17.435,"Multiple Delete Program":28.145,"Sorting Validation":5.769,"Pagination":167.597,"Navigation Validation from Manage Program to other Page":13.075,"Logout Functionality":1.051
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@login</td>
+<td>16</td>
+<td>2</td>
+<td>0</td>
+<td>0</td>
+<td>88.889%</td>
+</tr>
+<tr>
+<td>@dashboard</td>
+<td>18</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TC_Validates_Sorting</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag1</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag2</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@tag</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>AppName</td>
+<td>DSAlgo</td>
+</tr>
+<tr>
+<td>user</td>
+<td>Team Brainy Bunch</td>
+</tr>
+<tr>
+<td>build</td>
+<td>1.1</td>
+</tr>
+<tr>
+<td>os</td>
+<td>Windows10</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 7,
+failParent: 1,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 51,
+failChild: 2,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 228,
+failGrandChild: 2,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script><div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@login</a><a class="dropdown-item" href="#">@dashboard</a><a class="dropdown-item" href="#">@TC_Validates_Sorting</a><a class="dropdown-item" href="#">@tag1</a><a class="dropdown-item" href="#">@tag2</a><a class="dropdown-item" href="#">@tag</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="fail" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Home Page Verification</p>
+            <p class="text-sm">
+              <span>3:17:49 PM</span> / <span>00:00:13:525</span>
+              <span class="badge fail-bg log float-right">Fail</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-fail">Home Page Verification</h5>
+<span class='badge badge-success'>05.01.2024 3:17:49 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:18:03 PM</span>
+<span class='badge badge-default'>00:00:13:525</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate logo is displayed in loginPage</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.loginFieldsImageValidation()">
+                <span>Then Admin should see expected logo image in login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="7"><span class="badge log pass-bg mr-2">Pass</span>Validate field allignments in loginPage</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.alignmentloginFieldsValidation()">
+                <span>Then Admin should see input and loginbutton are in center of login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="12"><span class="badge log pass-bg mr-2">Pass</span>Validate Page Not found</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_invalidLMSPortal()">
+                <span>When Admin gives the invalid LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.ValidatePageNotFoundMessage()">
+                <span>Then Admin should recieve 404 page not found error</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="18"><span class="badge log pass-bg mr-2">Pass</span>Validate login with valid credentials</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="19"><span class="badge log pass-bg mr-2">Pass</span>Validate login with valid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters credentials 'sdetorganizers@gmail.com' and 'UIHackathon@02' and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="25"><span class="badge log fail-bg mr-2">Fail</span>Validate login page elements and invalid credentials</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline ">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="26"><span class="badge log pass-bg mr-2">Pass</span>Validate login page elements and invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters credentials 'sdetorganizers@gmail.co' and '<Pwd>' and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see the Error message please check expected 'Invalid username and password Please try again' displays</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="32"><span class="badge log pass-bg mr-2">Pass</span>Validate login page elements and invalid credentials</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters credentials 'sdetorganizers@gmail.com' and '<Pwd>' and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see the Error message please check expected 'Invalid username and password Please try again' displays</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="38"><span class="badge log fail-bg mr-2">Fail</span>Validate login page elements and invalid credentials</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters credentials '""' and '<Pwd>' and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Admin should see the Error message please check expected 'Please enter your username' displays</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Please enter your username is not displayed and it is displaying the following wrong message Invalid username and password Please try again expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at StepDefinitions.LoginPageSteps.Error_Msg_Validation(LoginPageSteps.java:77)
+	at ✽.Admin should see the Error message please check expected 'Please enter your username' displays(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/01Login.feature:28)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Validate_login_page_elements_and_invalid_credentials
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded1.png' src="../embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="44"><span class="badge log fail-bg mr-2">Fail</span>Validate login page elements and invalid credentials</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 ">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters credentials 'sdetorganizers@gmail.com' and '<Pwd>' and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step fail-bg">
+                    <span>Then Admin should see the Error message please check expected 'Please enter your password' displays</span>
+      <div>
+        <textarea disabled class="code-block">java.lang.AssertionError: Please enter your password is not displayed and it is displaying the following wrong message Invalid username and password Please try again expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at StepDefinitions.LoginPageSteps.Error_Msg_Validation(LoginPageSteps.java:77)
+	at ✽.Admin should see the Error message please check expected 'Please enter your password' displays(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/01Login.feature:28)
+</textarea>
+      
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Hooks.ApplicationHooks.tearDown(io.cucumber.java.Scenario)</span>
+      <div>Validate_login_page_elements_and_invalid_credentials
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='../embedded2.png' src="../embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="50"><span class="badge log pass-bg mr-2">Pass</span>Validate login with valid credentials by clicking Login button through Keypad</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="51"><span class="badge log pass-bg mr-2">Pass</span>Validate login with valid credentials by clicking Login button through Keypad</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin enters credentials 'sdetorganizers@gmail.com' and 'UIHackathon@02' and clicks login button through keypad</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on dashboard page</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="57"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="58"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'Please login to LMS application'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="63"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'username'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="68"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'password'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="73"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'userfieldlabel'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'passwordfieldlabel'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="83"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'login'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="88"><span class="badge log pass-bg mr-2">Pass</span>Validate Fields are displayed in LoginPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see 'logBtnlabel'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="93"><span class="badge log pass-bg mr-2">Pass</span>Validate loginpage color</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="94"><span class="badge log pass-bg mr-2">Pass</span>Validate loginpage color</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see user in 'usercolor' color</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="99"><span class="badge log pass-bg mr-2">Pass</span>Validate loginpage color</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When Admin should see user in 'passwordcolor' color</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="104"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Dashboard Verification</p>
+            <p class="text-sm">
+              <span>3:18:03 PM</span> / <span>00:00:19:118</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Dashboard Verification</h5>
+<span class='badge badge-success'>05.01.2024 3:18:03 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:18:22 PM</span>
+<span class='badge badge-default'>00:00:19:118</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=104</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="105"><span class="badge log pass-bg mr-2">Pass</span>Verify Logout button function</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.user_enters_valid_credentials()">
+                <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LogoutPageSteps.LogoutOfLMS()">
+                <span>Then Admin click Logout button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="112"><span class="badge log pass-bg mr-2">Pass</span>Verify after login  admin lands on manage program as dashboard page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.user_enters_valid_credentials()">
+                <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.dashboardPageSteps.Admin_should_land_on_dashboard_page()">
+                <span>Then Admin should see manage program as header</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="118"><span class="badge log pass-bg mr-2">Pass</span>Verify after login  admin lands on manage program as dashboard page</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.user_enters_valid_credentials()">
+                <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.dashboardPageSteps.Admin_should_land_on_dashboard_page()">
+                <span>Then Admin should see manage program as header</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="124"><span class="badge log pass-bg mr-2">Pass</span>Verify the response time</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.user_enters_valid_credentials()">
+                <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.dashboardPageSteps.Maximum_navigation_time_dashboard()">
+                <span>Then Maximum navigation time in milliseconds, defaults to 30 seconds</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="130"><span class="badge log pass-bg mr-2">Pass</span>Verify LMS title</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.user_enters_valid_credentials()">
+                <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.dashboardPageSteps.admin_should_see_lms_learning_management_system_as_title()">
+                <span>Then Admin should see LMS -Learning management system  as title</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="136"><span class="badge log pass-bg mr-2">Pass</span>Validate navigation bar text</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="137"><span class="badge log pass-bg mr-2">Pass</span>Validate navigation bar text</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct spelling in navigation bar text for 'Program'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="143"><span class="badge log pass-bg mr-2">Pass</span>Validate navigation bar text</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct spelling in navigation bar text for 'Batch'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="149"><span class="badge log pass-bg mr-2">Pass</span>Validate navigation bar text</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct spelling in navigation bar text for 'User'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="155"><span class="badge log pass-bg mr-2">Pass</span>Validate navigation bar text</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct spelling in navigation bar text for 'Logout'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="161"><span class="badge log pass-bg mr-2">Pass</span>Validate correct order in navigation bar</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="162"><span class="badge log pass-bg mr-2">Pass</span>Validate correct order in navigation bar</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct 1 order in navigation bar text for 'Program'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="168"><span class="badge log pass-bg mr-2">Pass</span>Validate correct order in navigation bar</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct 2 order in navigation bar text for 'Batch'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="174"><span class="badge log pass-bg mr-2">Pass</span>Validate correct order in navigation bar</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct 3 order in navigation bar text for 'User'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="180"><span class="badge log pass-bg mr-2">Pass</span>Validate correct order in navigation bar</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see correct 4 order in navigation bar text for 'Logout'</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="186"><span class="badge log pass-bg mr-2">Pass</span>Validate  field alignment in DashboardPage</div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="187"><span class="badge log pass-bg mr-2">Pass</span>Validate  field alignment in DashboardPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see 'LMS' is aligned as expected on navigation bar of DashboardPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="193"><span class="badge log pass-bg mr-2">Pass</span>Validate  field alignment in DashboardPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see 'Program' is aligned as expected on navigation bar of DashboardPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="199"><span class="badge log pass-bg mr-2">Pass</span>Validate  field alignment in DashboardPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see 'Batch' is aligned as expected on navigation bar of DashboardPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="205"><span class="badge log pass-bg mr-2">Pass</span>Validate  field alignment in DashboardPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see 'User' is aligned as expected on navigation bar of DashboardPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="211"><span class="badge log pass-bg mr-2">Pass</span>Validate  field alignment in DashboardPage</div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then Admin should see 'Logout' is aligned as expected on navigation bar of DashboardPage</span>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="217"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Delete Program details</p>
+            <p class="text-sm">
+              <span>3:18:22 PM</span> / <span>00:00:17:435</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Delete Program details</h5>
+<span class='badge badge-success'>05.01.2024 3:18:22 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:18:39 PM</span>
+<span class='badge badge-default'>00:00:17:435</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=217</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="218"><span class="badge log pass-bg mr-2">Pass</span>Delete Feature</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_is_on_manage_program_in_the_program_module()">
+                <span>Given Admin is on Manage Program in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_clicks_delete_button_on_the_data_table_for_any_row_in_the_program_module()">
+                <span>When Admin clicks Delete button on the data table for any row in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_should_see_a_alert_open_with_heading_confirm_along_with_yes_and_no_button_for_deletion_in_the_program_module()">
+                <span>Then Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="223"><span class="badge log pass-bg mr-2">Pass</span>Validate details for Confirm Deletion form</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_is_on_manage_program_in_the_program_module()">
+                <span>Given Admin is on Manage Program in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_clicks_on_delete_button_on_the_data_table_for_any_row_in_the_program_module()">
+                <span>When Admin clicks on Delete button on the data table for any row in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_should_see_a_message(java.lang.String)">
+                <span>Then Admin should see a message "Are you sure you want to delete <Program name>?"</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="228"><span class="badge log pass-bg mr-2">Pass</span>Click Yes on deletion window</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_is_on_confirm_deletion_alert_popup_in_the_program_module()">
+                <span>Given Admin is on Confirm Deletion alert popup in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_clicks_yes_button_on_the_alert_in_the_program_module()">
+                <span>When Admin clicks YES button on the alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_gets_a_message_successful_program_deleted_alert_and_able_to_see_that_program_deleted_in_the_data_table_in_the_program_module()">
+                <span>Then Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="233"><span class="badge log pass-bg mr-2">Pass</span>Click No on deletion window</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_is_on_confirm_delete_alert_popup_in_the_program_module()">
+                <span>Given Admin is on Confirm Delete alert popup in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_clicks_no_button_on_the_alert_in_the_program_module()">
+                <span>When Admin clicks NO button on the alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_can_see_the_deletion_alert_disappears_without_deleting_in_the_program_module()">
+                <span>Then Admin can see the deletion alert disappears without deleting in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="238"><span class="badge log pass-bg mr-2">Pass</span>Validate Close X icon on Confirm Deletion alert in the Program module</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_is_on_confirm_delete_alert_popup_in_the_program_module()">
+                <span>Given Admin is on Confirm Delete alert popup in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_clicks_close_x_icon_on_deletion_alert_in_the_program_module()">
+                <span>When Admin clicks Close X Icon on Deletion alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.DeleteProgramSteps.admin_can_see_the_deletion_alert_disappears_without_any_changes_in_the_program_module()">
+                <span>Then Admin can see the deletion alert disappears without any changes in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="243"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Multiple Delete Program</p>
+            <p class="text-sm">
+              <span>3:18:39 PM</span> / <span>00:00:28:145</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Multiple Delete Program</h5>
+<span class='badge badge-success'>05.01.2024 3:18:39 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:19:07 PM</span>
+<span class='badge badge-default'>00:00:28:145</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=243</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="244"><span class="badge log pass-bg mr-2">Pass</span>Validate Common Delete button enabled after clicking on any checkbox</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_is_in_the_manage_program_page_after_clicking_program_on_the_navigation_bar()">
+                <span>Given Admin is in the manage program page after clicking Program on the navigation bar in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_any_checkbox_in_the_data_table()">
+                <span>When Admin clicks any checkbox in the data table in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_should_see_common_delete_option_enabled_under_header_manage_program()">
+                <span>Then Admin should see common delete option enabled under header Manage Program in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="249"><span class="badge log pass-bg mr-2">Pass</span>Validate multiple program deletion by selecting Single checkbox</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_delete_button_after_selecting_the_check_box_in_the_data_table_to_reach_on_confirm_deletion_alert()">
+                <span>Given Admin clicks common delete button after selecting the check box in the data table to reach on confirm deletion alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_yes_button_on_the_alert()">
+                <span>When Admin clicks <YES> button on the alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_should_land_on_manage_program_page_and_can_see_the_selected_program_is_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected program is deleted from the data table in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_delete_after_selecting_the_check_box_in_the_data_table_to_reach_on_confirm_deletion_alert()">
+                <span>Given Admin clicks common delete after selecting the check box in the data table to reach on confirm deletion alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_no_button_on_the_alert()">
+                <span>When Admin clicks <NO> button on the alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_should_land_on_manage_program_page_and_can_see_the_selected_program_is_not_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected program is not deleted from the data table in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="257"><span class="badge log pass-bg mr-2">Pass</span>Validate multiple program deletion by selecting multiple check boxes</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_delete_button_after_selecting_multiple_check_boxes_in_the_data_table_to_reach_on_confirm_deletion_alert()">
+                <span>Given Admin clicks common delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_yes_button_on_alert()">
+                <span>When Admin clicks <YES> button on alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_should_land_on_manage_program_page_and_can_see_the_selected_programs_are_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected programs are deleted from the data table in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_delete_after_selecting_multiple_check_boxes_in_the_data_table_to_reach_on_confirm_deletion_alert()">
+                <span>Given Admin clicks common delete after selecting multiple check boxes in the data table to reach on confirm deletion alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_clicks_no_button_on_alert()">
+                <span>When Admin clicks <NO> button on alert in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramMultipleDeleteSteps.admin_should_land_on_manage_program_page_and_can_see_the_selected_programs_are_not_deleted_from_the_data_table()">
+                <span>Then Admin should land on Manage Program page and can see the selected programs are not deleted from the data table in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="265"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Sorting Validation</p>
+            <p class="text-sm">
+              <span>3:19:08 PM</span> / <span>00:00:05:769</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Sorting Validation</h5>
+<span class='badge badge-success'>05.01.2024 3:19:08 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:19:13 PM</span>
+<span class='badge badge-default'>00:00:05:769</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=265</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="266"><span class="badge log pass-bg mr-2">Pass</span>Validates Sorting(data ordering) on the Program Data table</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_on_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks on "Program" on the Navigation Bar to reach the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_should_be_redirected_to_the_manage_program_page()">
+                <span>Then Admin should be redirected to the Manage Program Page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_on_manage_program_page()">
+                <span>Given Admin is on Manage Program page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_the_sort_icon_of_program_name_column()">
+                <span>When Admin clicks the sort icon of program name column in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program name column values in ascending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_is_in_the_ascending_order_on_the_table_based_on_program_name_column()">
+                <span>Given The data is in the ascending order on the table based on Program Name column in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_the_sort_icon_of_program_name_column_to_sort_program_name_in_descending_order()">
+                <span>When Admin clicks the sort icon of program name column to sort Program name in descending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_get_sorted_on_the_table_based_on_the_program_name_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program name column values in descending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_on_manage_program_page()">
+                <span>Given Admin is on Manage Program page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_the_sort_icon_of_program_desc_column()">
+                <span>When Admin clicks the sort icon of program Desc column in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program description column values in ascending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_is_in_the_ascending_order_on_the_table_based_on_program_description_column()">
+                <span>Given The data is in the ascending order on the table based on Program Description column in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_the_sort_icon_of_program_desc_column_to_sort_program_description_in_descending_order()">
+                <span>When Admin clicks the sort icon of program Desc column to sort Program description in descending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_get_sorted_on_the_table_based_on_the_program_description_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program description column values in descending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_on_manage_program_page()">
+                <span>Given Admin is on Manage Program page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_the_sort_icon_of_program_status_column()">
+                <span>When Admin clicks the sort icon of program Status column in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_ascending_order()">
+                <span>Then The data get sorted on the table based on the program status column values in ascending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_is_in_the_ascending_order_on_the_table_based_on_program_status_column()">
+                <span>Given The data is in the ascending order on the table based on Program Status column in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_the_sort_icon_of_program_status_column_to_sort_program_status_in_descending_order()">
+                <span>When Admin clicks the sort icon of program Status column to sort Program status in descending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.the_data_get_sorted_on_the_table_based_on_the_program_status_column_values_in_descending_order()">
+                <span>Then The data get sorted on the table based on the program status column values in descending order in the Program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="289"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Pagination</p>
+            <p class="text-sm">
+              <span>3:19:13 PM</span> / <span>00:02:47:597</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Pagination</h5>
+<span class='badge badge-success'>05.01.2024 3:19:13 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:22:01 PM</span>
+<span class='badge badge-default'>00:02:47:597</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=289</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="290"><span class="badge log pass-bg mr-2">Pass</span>Verify Next page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_be_on_manage_program_page_in_program_module()">
+                <span>Then Admin should be on Manage Program Page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_manage_program_page_in_program_module()">
+                <span>Given Admin is on Manage Program page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_clicks_next_page_link_on_the_program_table()">
+                <span>When Admin clicks Next page link on the program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_see_the_pagination_has_Next_active_link()">
+                <span>Then Admin should see the Pagination has Next active link on the program table</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="297"><span class="badge log pass-bg mr-2">Pass</span>Verify Last page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_be_on_manage_program_page_in_program_module()">
+                <span>Then Admin should be on Manage Program Page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_manage_program_page_in_program_module()">
+                <span>Given Admin is on Manage Program page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_clicks_last_page_link()">
+                <span>When Admin clicks Last page link on the program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_see_the_last_page_record_on_the_table_with_next_page_link_are_disabled()">
+                <span>Then Admin should see the last page record on the table with Next page link are disabled in program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="304"><span class="badge log pass-bg mr-2">Pass</span>Verify Previous page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_be_on_manage_program_page_in_program_module()">
+                <span>Then Admin should be on Manage Program Page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_last_page_of_program_table()">
+                <span>Given Admin is on last page of Program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_clicks_Previous_page_link()">
+                <span>When Admin clicks Previous page link on the program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_see_the_previous_page_record_on_the_table_with_pagination_has_previous_page_link()">
+                <span>Then Admin should see the previous page record on the table with pagination has previous page link in program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="311"><span class="badge log pass-bg mr-2">Pass</span>Verify First page link</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_be_on_manage_program_page_in_program_module()">
+                <span>Then Admin should be on Manage Program Page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_previous_program_page()">
+                <span>Given Admin is on Previous Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_clicks_first_page_link()">
+                <span>When Admin clicks First page link on the program table</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_should_see_the_very_first_page_record_on_the_table_with_previous_page_link_are_disabled()">
+                <span>Then Admin should see the very first page record on the table with Previous page link are disabled in program module</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="318"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Navigation Validation from Manage Program to other Page</p>
+            <p class="text-sm">
+              <span>3:22:01 PM</span> / <span>00:00:13:075</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Navigation Validation from Manage Program to other Page</h5>
+<span class='badge badge-success'>05.01.2024 3:22:01 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:22:14 PM</span>
+<span class='badge badge-default'>00:00:13:075</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=318</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="319"><span class="badge log pass-bg mr-2">Pass</span>Batch link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_on_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks on "Program" on the Navigation Bar to reach the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_should_be_redirected_to_the_manage_program_page()">
+                <span>Then Admin should be redirected to the Manage Program Page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_manage_program_page_in_program_module()">
+                <span>Given Admin is on Manage Program page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramNavigationSteps.admin_clicks_on_batch_link_on_manage_program_page()">
+                <span>When Admin clicks on Batch link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramNavigationSteps.admin_is_re_directed_to_batch_page()">
+                <span>Then Check if Admin is re-directed to Batch page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="327"><span class="badge log pass-bg mr-2">Pass</span>User link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_on_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks on "Program" on the Navigation Bar to reach the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_should_be_redirected_to_the_manage_program_page()">
+                <span>Then Admin should be redirected to the Manage Program Page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_manage_program_page_in_program_module()">
+                <span>Given Admin is on Manage Program page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramNavigationSteps.admin_clicks_on_user_link_on_manage_program_page()">
+                <span>When Admin clicks on User link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramNavigationSteps.admin_is_re_directed_to_user_page()">
+                <span>Then Check if Admin is re-directed to User page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="335"><span class="badge log pass-bg mr-2">Pass</span>Logout link on navigation bar</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_is_logged_in()">
+                <span>Given Check if Admin is logged in or not for the Program Mdule</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_clicks_on_on_the_navigation_bar(java.lang.String)">
+                <span>When Admin clicks on "Program" on the Navigation Bar to reach the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramSortingSteps.admin_should_be_redirected_to_the_manage_program_page()">
+                <span>Then Admin should be redirected to the Manage Program Page in the Program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.PaginationSteps.admin_is_on_manage_program_page_in_program_module()">
+                <span>Given Admin is on Manage Program page in program module</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramNavigationSteps.admin_clicks_on_logout_link_on_manage_program_page()">
+                <span>When Admin clicks on Logout link on Manage Program page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.ProgramNavigationSteps.admin_is_re_directed_to_login_page()">
+                <span>Then Check if Admin is re-directed to Login page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="343"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">Logout Functionality</p>
+            <p class="text-sm">
+              <span>3:22:14 PM</span> / <span>00:00:01:051</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">Logout Functionality</h5>
+<span class='badge badge-success'>05.01.2024 3:22:14 PM</span>
+<span class='badge badge-danger'>05.01.2024 3:22:15 PM</span>
+<span class='badge badge-default'>00:00:01:051</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=343</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="344"><span class="badge log pass-bg mr-2">Pass</span>Verify Logout button function</div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.launch_LMSPortal()">
+                <span>When Admin gives the correct LMS portal URL</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.user_enters_valid_credentials()">
+                <span>Then Admin enters valid credentials and clicks login button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LogoutPageSteps.LogoutOfLMS()">
+                <span>Then Admin click Logout button on navigation bar</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="StepDefinitions.LoginPageSteps.get_lms_title()">
+                <span>Then Admin should land on the home page</span>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">6</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>16</span>
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">@login</p>
+<p class="duration text-sm">18 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@login</h4>
+<span status="pass" class='badge log pass-bg'>16 passed</span>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:49 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='2'>Validate logo is displayed in loginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate logo is displayed in loginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:50 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='7'>Validate field allignments in loginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate field allignments in loginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:51 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='12'>Validate Page Not found</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Page Not found</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:52 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='19'>Validate login with valid credentials</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login with valid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:53 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='26'>Validate login page elements and invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login page elements and invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:54 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='32'>Validate login page elements and invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login page elements and invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:17:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='38'>Validate login page elements and invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login page elements and invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:17:58 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='44'>Validate login page elements and invalid credentials</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login page elements and invalid credentials</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:17:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='51'>Validate login with valid credentials by clicking Login button through Keypad</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login with valid credentials by clicking Login button through Keypad</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='58'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:00 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='63'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='68'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='73'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:01 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='78'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='83'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='88'>Validate Fields are displayed in LoginPage</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate Fields are displayed in LoginPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='94'>Validate loginpage color</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate loginpage color</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:02 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='99'>Validate loginpage color</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate loginpage color</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>18</span>
+</span>
+<p class="name">@dashboard</p>
+<p class="duration text-sm">18 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@dashboard</h4>
+<span status="pass" class='badge log pass-bg'>18 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:03 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='105'>Verify Logout button function</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Verify Logout button function</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:04 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='112'>Verify after login admin lands on manage program as dashboard page</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Verify after login admin lands on manage program as dashboard page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:05 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='118'>Verify after login admin lands on manage program as dashboard page</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Verify after login admin lands on manage program as dashboard page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:06 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='124'>Verify the response time</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Verify the response time</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:07 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='130'>Verify LMS title</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Verify LMS title</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='137'>Validate navigation bar text</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate navigation bar text</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:09 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='143'>Validate navigation bar text</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate navigation bar text</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:10 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='149'>Validate navigation bar text</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate navigation bar text</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:11 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='155'>Validate navigation bar text</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate navigation bar text</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:12 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='162'>Validate correct order in navigation bar</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate correct order in navigation bar</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='168'>Validate correct order in navigation bar</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate correct order in navigation bar</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:14 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='174'>Validate correct order in navigation bar</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate correct order in navigation bar</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:15 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='180'>Validate correct order in navigation bar</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate correct order in navigation bar</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:17 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='187'>Validate field alignment in DashboardPage</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate field alignment in DashboardPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='193'>Validate field alignment in DashboardPage</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate field alignment in DashboardPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:19 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='199'>Validate field alignment in DashboardPage</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate field alignment in DashboardPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:20 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='205'>Validate field alignment in DashboardPage</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate field alignment in DashboardPage</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:18:21 PM</td>
+<td>
+<a href="#" class="linked" test-id='104' id='211'>Validate field alignment in DashboardPage</a>
+<div class="">
+<span class="badge badge-default">Dashboard Verification.Validate field alignment in DashboardPage</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TC_Validates_Sorting</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TC_Validates_Sorting</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='265' id='266'>Validates Sorting(data ordering) on the Program Data table</a>
+<div class="">
+<span class="badge badge-default">Sorting Validation.Validates Sorting(data ordering) on the Program Data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag1</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag1</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:13 PM</td>
+<td>
+<a href="#" class="linked" test-id='289' id='290'>Verify Next page link</a>
+<div class="">
+<span class="badge badge-default">Pagination.Verify Next page link</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag2</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag2</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:18 PM</td>
+<td>
+<a href="#" class="linked" test-id='289' id='297'>Verify Last page link</a>
+<div class="">
+<span class="badge badge-default">Pagination.Verify Last page link</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@tag</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@tag</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>15:19:08 PM</td>
+<td>
+<a href="#" class="linked" test-id='265' id='266'>Validates Sorting(data ordering) on the Program Data table</a>
+<div class="">
+<span class="badge badge-default">Sorting Validation.Validates Sorting(data ordering) on the Program Data table</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="test-wrapper row view exception-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Exception</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">1</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log badge-danger'>2</span>
+</span>
+<p class="name">java.lang.AssertionError</p>
+<p class="duration text-sm">2 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>java.lang.AssertionError</h4>
+<span status="fail" class='badge log badge-danger'>2 failed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:17:56 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='42'>Then Admin should see the Error message please check expected 'Please enter your username' displays</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login page elements and invalid credentials.Then Admin should see the Error message please check expected 'Please enter your username' displays</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>15:17:59 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='48'>Then Admin should see the Error message please check expected 'Please enter your password' displays</a>
+<div class="">
+<span class="badge badge-default">Home Page Verification.Validate login page elements and invalid credentials.Then Admin should see the Error message please check expected 'Please enter your password' displays</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
