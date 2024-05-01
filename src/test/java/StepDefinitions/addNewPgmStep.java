@@ -235,6 +235,8 @@ public class addNewPgmStep {
 			anp.clicksave();
 			break;
 		}
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+
 	}
 
 	@Then("Admin gets a message Successful Program Created alert and able to see the new program added in the data table")

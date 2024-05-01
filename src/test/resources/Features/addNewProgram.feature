@@ -5,39 +5,39 @@ Feature: Add New Program
     When Admin enter <username> and <password>
     Then Admin suceessfully loggedin
 
-  #Scenario Outline: Validate elements in Program deatails modal are visible
-    #Given Admin is on Manage Program Page
-    #When Admin clicks A New Program button
-    #Then Validate Program details modal <elements>
-#
-    #Examples: 
-      #| elements                                                       |
-      #| Validate buttons are visible                                   |
-      #| Validate all the input name and description fields are visible |
-      #| Validate status radio buttons are visible                      |
-#
-  #Scenario: Empty form submission
-    #Given Admin is on Program Details modal window
-    #When Admin clicks Save button without entering any data
-    #Then Admin gets a Error message alert
-#
-  #Scenario Outline: Enter only Program Name
-    #Given Admin is on Program Details modal window
-    #When Admin enters only Program Name "<Sheetname>" <Rownumber> in text box and clicks Save button
-    #Then Admin gets a message alert for Description and status field
-#
-    #Examples: 
-      #| Sheetname      | Rownumber |
-      #| Manage Program |         0 |
-#
-  #Scenario Outline: Enter only Program Description
-    #Given Admin is on Program Details modal window
-    #When Admin enters only Program Description "<Sheetname>" <Rownumber>  in text box and clicks Save button
-    #Then Admin gets a message alert for program name and status field
-#
-    #Examples: 
-      #| Sheetname      | Rownumber |
-      #| Manage Program |         0 |
+  Scenario Outline: Validate elements in Program deatails modal are visible
+    Given Admin is on Manage Program Page
+    When Admin clicks A New Program button
+    Then Validate Program details modal <elements>
+
+    Examples: 
+      | elements                                                       |
+      | Validate buttons are visible                                   |
+      | Validate all the input name and description fields are visible |
+      | Validate status radio buttons are visible                      |
+
+  Scenario: Empty form submission
+    Given Admin is on Program Details modal window
+    When Admin clicks Save button without entering any data
+    Then Admin gets a Error message alert
+
+  Scenario Outline: Enter only Program Name
+    Given Admin is on Program Details modal window
+    When Admin enters only Program Name "<Sheetname>" <Rownumber> in text box and clicks Save button
+    Then Admin gets a message alert for Description and status field
+
+    Examples: 
+      | Sheetname      | Rownumber |
+      | Manage Program |         0 |
+
+  Scenario Outline: Enter only Program Description
+    Given Admin is on Program Details modal window
+    When Admin enters only Program Description "<Sheetname>" <Rownumber>  in text box and clicks Save button
+    Then Admin gets a message alert for program name and status field
+
+    Examples: 
+      | Sheetname      | Rownumber |
+      | Manage Program |         0 |
 
   Scenario Outline: Select Status only
     Given Admin is on Program Details modal window
