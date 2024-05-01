@@ -65,7 +65,7 @@ public class LoginPageSteps {
 	}
 
 	@Then("Admin should land on dashboard page")
-	public void Admin_should_land_on_dashboard_page() {
+	public void Admin_should_land_on_dashboard_page() throws InterruptedException {
 		Assert.assertEquals(true, loginpg.returnlogoutbutton().isDisplayed());
 
 	}
