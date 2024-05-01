@@ -39,6 +39,7 @@ public class HomePage {
 	public void clickOnTryHere()
 	{
 		driver.findElement(tryherelink).click();
+		System.out.println("Hello");
 	}
 	public void clickOnRunButton()
 	{
