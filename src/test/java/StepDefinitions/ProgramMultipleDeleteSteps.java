@@ -6,7 +6,7 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
-import PageObjects.LoginPage;
+import PageObjects.loginpage;
 import PageObjects.Program;
 import Utilities.LoggerLoad;
 import io.cucumber.java.en.Given;
