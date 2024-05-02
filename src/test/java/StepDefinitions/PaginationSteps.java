@@ -35,7 +35,7 @@ public class PaginationSteps {
 	@When("Admin clicks Next page link on the program table")
 	public void admin_clicks_next_page_link_on_the_program_table() throws InterruptedException {
 		LoggerLoad.info("PaginationSteps---Admin clicks Next page link on the program table");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		programPage.clickNextLink();
 	}
 
@@ -56,7 +56,7 @@ public class PaginationSteps {
 	@When("Admin clicks Last page link on the program table")
 	public void admin_clicks_last_page_link() throws InterruptedException {
 		LoggerLoad.info("PaginationSteps---Admin clicks Last page link");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		programPage.clickLastLink();
 	}
 
@@ -70,7 +70,7 @@ public class PaginationSteps {
 	@When("Admin clicks Previous page link on the program table")
 	public void admin_clicks_Previous_page_link() throws InterruptedException {
 		LoggerLoad.info("PaginationSteps---Admin clicks Previous page link");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		programPage.clickPreviousLink();
 	}
 
@@ -90,7 +90,7 @@ public class PaginationSteps {
 	@When("Admin clicks First page link on the program table")
 	public void admin_clicks_first_page_link() throws InterruptedException {
 		LoggerLoad.info("PaginationSteps---Admin clicks First page link");
-		Thread.sleep(2000);
+		Thread.sleep(1000);
 		programPage.clickFirstLink();
 	}
 
