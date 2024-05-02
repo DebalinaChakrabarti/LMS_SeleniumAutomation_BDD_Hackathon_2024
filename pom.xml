@@ -3,8 +3,7 @@
   <groupId>LMS2</groupId>
   <artifactId>LMS2</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-  
-  <build>
+    <build>
 	 <plugins>
 		<plugin>
 			<!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-surefire-plugin -->
@@ -101,7 +100,7 @@
 		<dependency>
 			<groupId>org.seleniumhq.selenium</groupId>
 			<artifactId>selenium-java</artifactId>
-			<version>4.9.1</version>
+			<version>4.16.1</version>
 		</dependency>
 
 

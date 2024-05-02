@@ -35,15 +35,16 @@ public class ApplicationHooks {
 	public  static void launchBrowser()
 	{
 		String browserName = prop.getProperty("browser");
+		System.out.println("browserName"+ browserName);
 		driverFactory = new DriverFactory();
 		driver = driverFactory.init_driver(browserName);
 	}
 	
 	
-	@AfterAll(order=1)
-	public  static void quitBrowser() {
-		driver.quit();
-	}
+//	@AfterAll(order=1)
+//	public  static void quitBrowser() {
+//		driver.quit();
+//	}
 	
 	@After(order = 1)
 	public void tearDown(Scenario scenario) {
