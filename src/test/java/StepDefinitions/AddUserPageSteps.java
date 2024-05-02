@@ -32,8 +32,8 @@ private addUserPage addUserPg = new addUserPage(DriverFactory.getDriver());
 	   
 	}
 
-	@When("Admin clicks {string} button")
-	public void admin_clicks_button(String string) {
+	@When("Admin should click {string}")
+	public void admin_should_click(String string) {
 	   addUserPg.clickAddNewUser();
 	}
 
@@ -194,7 +194,7 @@ public void admin_clicks_cancel_button() throws InterruptedException {
 
 @When("Admin fills in all the fields with valid values and clicks submit from {string} {int}")
 public void admin_fills_in_all_the_fields_with_valid_values_and_clicks_submit_from(String sheetName, Integer rownumber) throws IOException, InterruptedException  {
-	String filePath = System.getProperty("user.dir") + "/src/test/resources/Book1.xlsx";
+	String filePath = System.getProperty("user.dir") + "/src/test/resources/Test_Data/LMS_Data.xlsx";
     System.out.println(filePath);
     ExcelReader sheetReader = new ExcelReader();
 

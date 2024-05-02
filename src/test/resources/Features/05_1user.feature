@@ -1,16 +1,22 @@
-
+@user
   Feature: User page validation
 
-Background: Admin is on dashboard page after Login 
+#Background: Admin is on the dashboard page after Login 
+
+  Background: Verify admin is able to land on home page
+    When Admin gives the correct LMS portal URL
+    Then Admin should land on the home page
+    Then Admin enters valid credentials and clicks login button
+
 
 Scenario: Validate url for UserPg
-    Given Admin is on dashboard page after Login
-    When Admin clicks "User" from navigation bar
+    Given Admin is on the dashboard page after Login
+    When Admin should click "User" from navigation bar
     Then Admin should see "user" on the page url
 
   Scenario Outline: Validate User page elements
-    Given Admin is on dashboard page after Login
-    When Admin clicks "User" from navigation bar
+    Given Admin is on the dashboard page after Login
+    When Admin should click "User" from navigation bar
     Then Admin should see <elements> on the page
 
     Examples:
@@ -33,14 +39,16 @@ Scenario: Validate url for UserPg
   
   
    Scenario: Search user by name
+      When Admin should click "User" from navigation bar
     Given Admin is on Mange user page
-    When  When Admin enters valid user in Search box
+    When Admin enters valid user in Search box
     |Testing Squad|
     Then Admin should see user displayed with the entered name
 
   Scenario: Validating the Search with unrelated keyword
+     When Admin should click "User" from navigation bar
     Given Admin is on Mange user page 
-    When  When Admin enters invalid user in Search box
+    When Admin enters invalid user in Search box
     |MahaTeam|
     Then Admin should see zero entries on the data table
   
