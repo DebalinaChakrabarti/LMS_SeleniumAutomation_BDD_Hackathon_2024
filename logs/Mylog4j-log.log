@@ -414,3 +414,253 @@
 [INFO ]2024-05-01 17:54:36.426[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
 [INFO ]2024-05-01 17:54:36.484[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
 [INFO ]2024-05-01 17:54:36.674[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page
+[INFO ]2024-05-01 21:16:22.246[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-01 21:16:24.389[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-01 21:16:26.550[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-01 21:16:26.612[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-01 21:16:26.633[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-01 21:16:26.634[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-01 21:16:28.892[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 21:16:30.973[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-01 21:16:32.976[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-01 21:16:34.224[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 21:16:36.316[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-01 21:16:36.320[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-01 21:16:42.689[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-01 21:16:42.691[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-01 21:16:42.774[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-01 21:16:42.842[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:16:42.907[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-01 21:16:47.212[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:16:48.360[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-01 21:16:52.754[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:16:56.027[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-01 21:17:00.296[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:17:02.525[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-01 21:17:08.082[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:17:10.120[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 21:17:12.134[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 21:17:12.241[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 21:17:12.264[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 21:17:12.284[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-01 21:17:12.398[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-01 21:17:12.462[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-01 21:17:12.612[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-01 21:17:12.670[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-01 21:17:12.861[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 21:17:12.882[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-01 21:17:12.940[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-01 21:17:13.007[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-01 21:17:13.139[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-01 21:17:13.185[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-01 21:17:13.369[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 21:17:13.388[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-01 21:17:13.459[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-01 21:17:13.525[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-01 21:17:13.642[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-01 21:17:13.685[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-01 21:17:13.896[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:17:15.959[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:17:15.988[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:17:16.009[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-01 21:17:17.138[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-01 21:17:17.240[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:17:19.319[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:17:19.358[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:17:19.388[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-01 21:17:20.500[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-01 21:18:10.647[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:18:12.722[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:18:12.751[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on last page of Program table
+[INFO ]2024-05-01 21:19:02.824[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Previous page link
+[INFO ]2024-05-01 21:19:03.945[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the previous page record on the table with pagination has previous page link
+[INFO ]2024-05-01 21:19:04.102[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:19:06.177[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:19:06.208[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Previous Program page
+[INFO ]2024-05-01 21:19:06.254[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks First page link
+[INFO ]2024-05-01 21:19:07.356[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the very first page record on the table with Previous page link are disabled
+[INFO ]2024-05-01 21:19:57.596[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:19:59.663[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 21:20:01.671[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 21:20:01.783[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 21:20:01.810[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:20:01.835[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on Batch link on Manage Program page
+[INFO ]2024-05-01 21:20:01.925[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to Batch page
+[INFO ]2024-05-01 21:20:01.985[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:20:04.052[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 21:20:06.053[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 21:20:06.176[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 21:20:06.200[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:20:06.219[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
+[INFO ]2024-05-01 21:20:06.304[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page
+[INFO ]2024-05-01 21:41:29.750[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-01 21:41:31.893[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-01 21:41:34.044[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-01 21:41:34.101[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-01 21:41:34.125[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-01 21:41:34.126[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-01 21:41:36.374[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 21:41:38.499[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-01 21:41:40.505[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-01 21:41:41.695[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 21:41:43.803[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-01 21:41:43.805[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-01 21:41:50.122[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-01 21:41:50.124[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-01 21:41:50.310[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-01 21:41:50.429[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:41:50.528[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-01 21:41:54.739[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:41:57.269[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-01 21:42:01.586[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:42:04.797[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-01 21:42:09.017[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 21:42:11.226[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-01 21:42:16.611[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:42:18.652[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 21:42:20.657[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 21:42:20.737[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 21:42:20.769[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 21:42:20.815[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-01 21:42:21.017[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-01 21:42:21.123[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-01 21:42:21.319[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-01 21:42:21.396[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-01 21:42:21.672[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 21:42:21.693[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-01 21:42:21.737[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-01 21:42:21.833[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-01 21:42:22.028[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-01 21:42:22.081[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-01 21:42:22.248[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 21:42:22.274[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-01 21:42:22.326[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-01 21:42:22.420[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-01 21:42:22.596[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-01 21:42:22.659[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-01 21:42:22.863[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:42:24.911[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:42:24.933[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:42:24.952[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-01 21:42:26.062[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-01 21:42:26.189[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:42:28.237[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:42:28.264[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:42:28.282[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-01 21:42:29.386[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-01 21:43:19.567[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:43:21.610[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:43:21.633[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on last page of Program table
+[INFO ]2024-05-01 21:44:11.674[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Previous page link
+[INFO ]2024-05-01 21:44:12.778[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the previous page record on the table with pagination has previous page link
+[INFO ]2024-05-01 21:44:13.018[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:44:15.054[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 21:44:15.075[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Previous Program page
+[INFO ]2024-05-01 21:44:15.118[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks First page link
+[INFO ]2024-05-01 21:44:16.189[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the very first page record on the table with Previous page link are disabled
+[INFO ]2024-05-01 21:45:06.426[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:45:08.458[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 21:45:10.468[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 21:45:10.573[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 21:45:10.614[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:45:10.648[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on Batch link on Manage Program page
+[INFO ]2024-05-01 21:45:10.757[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to Batch page
+[INFO ]2024-05-01 21:45:10.837[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 21:45:12.872[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 21:45:14.886[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 21:45:14.991[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 21:45:15.029[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 21:45:15.079[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
+[INFO ]2024-05-01 21:45:15.181[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page
+[INFO ]2024-05-01 21:59:29.591[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:10:41.722[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-01 22:10:43.919[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-01 22:10:46.190[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-01 22:10:46.277[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-01 22:10:46.313[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-01 22:10:46.314[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-01 22:10:48.744[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 22:10:50.892[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-01 22:10:52.898[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-01 22:10:54.215[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 22:10:56.330[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-01 22:10:56.332[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-01 22:51:08.203[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-01 22:51:10.449[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-01 22:51:12.710[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-01 22:51:12.814[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-01 22:51:12.849[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-01 22:51:12.851[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-01 22:51:15.303[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 22:51:17.525[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-01 22:51:19.540[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-01 22:51:20.909[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-01 22:51:23.060[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-01 22:51:23.063[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-01 22:51:29.785[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-01 22:51:29.790[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-01 22:51:30.114[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-01 22:51:30.268[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 22:51:30.387[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-01 22:51:34.723[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 22:51:35.995[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-01 22:51:40.870[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 22:51:44.226[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-01 22:51:48.591[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-01 22:51:50.908[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-01 22:51:56.540[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:51:58.601[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 22:52:00.604[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 22:52:00.729[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 22:52:00.791[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 22:52:00.827[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-01 22:52:01.023[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-01 22:52:01.153[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-01 22:52:01.411[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-01 22:52:01.536[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-01 22:52:01.894[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 22:52:01.932[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-01 22:52:02.038[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-01 22:52:02.185[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-01 22:52:02.435[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-01 22:52:02.568[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-01 22:52:02.954[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-01 22:52:02.990[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-01 22:52:03.095[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-01 22:52:03.233[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-01 22:52:03.467[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-01 22:52:03.582[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-01 22:52:04.092[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:52:06.151[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 22:52:06.188[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 22:52:06.217[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-01 22:52:07.386[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-01 22:52:07.612[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:52:09.665[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 22:52:09.705[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 22:52:09.736[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-01 22:52:10.873[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-01 22:53:01.133[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:53:03.195[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 22:53:03.243[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on last page of Program table
+[INFO ]2024-05-01 22:53:53.306[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Previous page link
+[INFO ]2024-05-01 22:53:54.483[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the previous page record on the table with pagination has previous page link
+[INFO ]2024-05-01 22:53:54.782[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:53:56.832[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-01 22:53:56.866[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Previous Program page
+[INFO ]2024-05-01 22:53:56.946[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks First page link
+[INFO ]2024-05-01 22:53:58.081[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the very first page record on the table with Previous page link are disabled
+[INFO ]2024-05-01 22:54:48.452[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:54:50.515[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 22:54:52.528[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 22:54:52.724[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 22:54:52.773[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 22:54:52.817[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on Batch link on Manage Program page
+[INFO ]2024-05-01 22:54:52.998[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to Batch page
+[INFO ]2024-05-01 22:54:53.115[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-01 22:54:55.175[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-01 22:54:57.178[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-01 22:54:57.356[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-01 22:54:57.426[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-01 22:54:57.473[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
+[INFO ]2024-05-01 22:54:57.645[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page

@@ -40,13 +40,13 @@ public class UserPageSteps {
 	private userPage userPg = new userPage(DriverFactory.getDriver());
 	
 	@SuppressWarnings("deprecation")
-	@Given("Admin is on dashboard page after Login")
+	@Given("Admin is on the dashboard page after Login")
 	public void admin_is_on_dashboard_page_after_login() throws Exception {
 		//Thread.sleep(500);
 		driver.manage().timeouts().implicitlyWait(4,TimeUnit.SECONDS) ;
 	}
 
-	@When("Admin clicks {string} from navigation bar")
+	@When("Admin should click {string} from navigation bar")
 	public void admin_clicks_from_navigation_bar(String string) {
 	   	userPg.clickOnUserTab();
 	}
@@ -171,16 +171,16 @@ public class UserPageSteps {
 	
 }
     
-    @When("When Admin enters valid user in Search box")
-    public void when_admin_enters_valid_user_in_search_box(io.cucumber.datatable.DataTable dataTable) {
+    @When("Admin enters valid user in Search box")
+    public void admin_enters_valid_user_in_search_box(io.cucumber.datatable.DataTable dataTable) {
 //    	driver.manage().timeouts().implicitlyWait(4,TimeUnit.SECONDS) ;
     	search  = userPg.enterValidUser();
     	System.out.println("Valid user name entered is "  + search);
     	
     }
 
-    @When("When Admin enters invalid user in Search box")
-    public void when_admin_enters_invalid_user_in_search_box(io.cucumber.datatable.DataTable dataTable) {
+    @When("Admin enters invalid user in Search box")
+    public void admin_enters_invalid_user_in_search_box(io.cucumber.datatable.DataTable dataTable) {
     	 userPg.enterInValidUser();
     	System.out.println("Valid user name entered is "  +  userPg.enterInValidUser());
     }

@@ -1,3 +1,4 @@
+@user
 Feature: Sorting User Details on Manage User Page
 
 Background: Admin is on dashboard page after Login and clicks User on the navigation bar
