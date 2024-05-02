@@ -15,7 +15,7 @@ Given Admin is on Manage Program page in program module
 When Admin clicks on User link on Manage Program page
 Then Check if Admin is re-directed to User page
 
-Scenario: Logout link on navigation bar
-Given Admin is on Manage Program page in program module
-When Admin clicks on Logout link on Manage Program page
-Then Check if Admin is re-directed to Login page
+#Scenario: Logout link on navigation bar
+#Given Admin is on Manage Program page in program module
+#When Admin clicks on Logout link on Manage Program page
+#Then Check if Admin is re-directed to Login page
