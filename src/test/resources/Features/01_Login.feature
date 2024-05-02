@@ -1,4 +1,4 @@
-
+@login
 Feature: Home Page Verification
 
   Background: Verify admin is able to land on home page

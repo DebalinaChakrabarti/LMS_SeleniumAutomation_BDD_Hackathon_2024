@@ -1,11 +1,11 @@
-#Feature: Assign Staff 
-#
-#Background: Admin is on Manage User Page after clicks User on the navigation bar
-#
-#Scenario: Validate Assign Staff Popup window
-    #Given Admin is on User Page
-    #When Admin clicks on "Assign Staff" button
-    #Then User should see a pop up open for assign staff with empty form along with Save and Cancel button and close icon on the top 
+Feature: Assign Staff 
+
+Background: Admin is on Manage User Page after clicks User on the navigation bar
+
+Scenario: Validate Assign Staff Popup window
+    Given Admin is on User Page
+    When Admin clicks on "Assign Staff" button
+    Then User should see a pop up open for assign staff with empty form along with Save and Cancel button and close icon on the top 
   
     
     
