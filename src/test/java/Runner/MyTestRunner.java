@@ -18,7 +18,7 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 				"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:",
 				"rerun:target/rerun.txt"},
 				publish=true,
-				tags="not @skip"
+				tags=""
 )
 
 public class MyTestRunner extends AbstractTestNGCucumberTests{

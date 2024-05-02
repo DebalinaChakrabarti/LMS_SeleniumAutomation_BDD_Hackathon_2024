@@ -1,16 +1,20 @@
 package DriverFactory;
 
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.safari.SafariDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class DriverFactory {
 
 	public WebDriver driver;
+	public final static int TIMEOUT = 50;
 	
 	public static ThreadLocal<WebDriver> tlDriver = new ThreadLocal<>();
 	
@@ -27,9 +31,10 @@ public class DriverFactory {
 //		browser = System.getenv("BROWSER");
 		if(browser.equals("chrome"))
 		{
-//		WebDriverManager.chromedriver().setup();
-			driver =new ChromeDriver();
-			tlDriver.set(driver);
+
+		//	ChromeOptions opt = new ChromeOptions();
+			WebDriverManager.chromedriver().setup();
+
 			//System.setProperty("webdriver.chrome.driver","../../Downloads/chromedriver-mac-x64/chromedriver");
 			//System.out.println("Updating Chrome Version");
 
@@ -54,7 +59,9 @@ public class DriverFactory {
 		else {
 			System.out.println("Please pass the correct browser value " + browser);
 		}
-			
+//		new WebDriverWait(tlDriver, Duration.ofSeconds(TIMEOUT));
+		getDriver().manage().timeouts().implicitlyWait(Duration.ofSeconds(TIMEOUT));
+
 		getDriver().manage().deleteAllCookies();
 		getDriver().manage().window().maximize();
 		return getDriver();

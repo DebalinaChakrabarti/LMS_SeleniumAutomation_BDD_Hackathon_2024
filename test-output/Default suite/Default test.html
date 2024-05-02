@@ -1,0 +1,862 @@
+<html>
+<head>
+<title>TestNG:  Default test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Default test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>107/6/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed May 01 22:50:02 EDT 2024</td>
+</tr>
+<tr><td>Total time:</td><td>449 seconds (449682 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the user details are added in data table", "Optional[User Details Popup Validation]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;User Added Successfully&apos;]&quot;}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ceef02da6b199a58d458d10d10f086f, findElement {using=xpath, value=//div[text()=&apos;User Added Successfully&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\nsatc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ceef02da6b199a58d458d10d10f086f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.addUserPage.getSucessMsg(addUserPage.java:212)
+	at StepDefinitions.AddUserPageSteps.the_newly_added_user_should_be_present_in_the_data_table_in_manage_user_page(AddUserPageSteps.java:211)
+	at ✽.the newly added user should be present in the data table in Manage User page(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_2addUser.feature:97)
+</pre></div><a href='#' onClick='toggleBox("stack-trace301209060", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace301209060'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;User Added Successfully&apos;]&quot;}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ceef02da6b199a58d458d10d10f086f, findElement {using=xpath, value=//div[text()=&apos;User Added Successfully&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\nsatc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ceef02da6b199a58d458d10d10f086f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.addUserPage.getSucessMsg(addUserPage.java:212)
+	at StepDefinitions.AddUserPageSteps.the_newly_added_user_should_be_present_in_the_data_table_in_manage_user_page(AddUserPageSteps.java:211)
+	at ✽.the newly added user should be present in the data table in Manage User page(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_2addUser.feature:97)
+</pre></div></td>
+<td>7</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Search user by name", "Optional[User page validation]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[normalize-space()=&apos;Testing Squad&apos;]&quot;}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ceef02da6b199a58d458d10d10f086f, findElement {using=xpath, value=//td[normalize-space()=&apos;Testing Squad&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\nsatc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ceef02da6b199a58d458d10d10f086f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.userPage.searchedValidUser(userPage.java:196)
+	at StepDefinitions.UserPageSteps.admin_should_see_user_displayed_with_the_entered_name(UserPageSteps.java:191)
+	at ✽.Admin should see user displayed with the entered name(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_1user.feature:46)
+</pre></div><a href='#' onClick='toggleBox("stack-trace893548422", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace893548422'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//td[normalize-space()=&apos;Testing Squad&apos;]&quot;}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ceef02da6b199a58d458d10d10f086f, findElement {using=xpath, value=//td[normalize-space()=&apos;Testing Squad&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\nsatc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ceef02da6b199a58d458d10d10f086f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.userPage.searchedValidUser(userPage.java:196)
+	at StepDefinitions.UserPageSteps.admin_should_see_user_displayed_with_the_entered_name(UserPageSteps.java:191)
+	at ✽.Admin should see user displayed with the entered name(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_1user.feature:46)
+</pre></div></td>
+<td>6</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login page elements and invalid credentials", "Optional[Home Page Verification]"</td>
+<td><div><pre>java.lang.AssertionError: Please enter your password is not displayed and it is displaying the following wrong message Invalid username and password Please try again expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at StepDefinitions.LoginPageSteps.Error_Msg_Validation(LoginPageSteps.java:77)
+	at ✽.Admin should see the Error message please check expected &apos;Please enter your password&apos; displays(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/01Login.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1541300552", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1541300552'><pre>java.lang.AssertionError: Please enter your password is not displayed and it is displaying the following wrong message Invalid username and password Please try again expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at StepDefinitions.LoginPageSteps.Error_Msg_Validation(LoginPageSteps.java:77)
+	at ✽.Admin should see the Error message please check expected &apos;Please enter your password&apos; displays(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/01Login.feature:28)
+</pre></div></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login page elements and invalid credentials", "Optional[Home Page Verification]"</td>
+<td><div><pre>java.lang.AssertionError: Please enter your username is not displayed and it is displaying the following wrong message Invalid username and password Please try again expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at StepDefinitions.LoginPageSteps.Error_Msg_Validation(LoginPageSteps.java:77)
+	at ✽.Admin should see the Error message please check expected &apos;Please enter your username&apos; displays(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/01Login.feature:28)
+</pre></div><a href='#' onClick='toggleBox("stack-trace201331640", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace201331640'><pre>java.lang.AssertionError: Please enter your username is not displayed and it is displaying the following wrong message Invalid username and password Please try again expected [false] but found [true]
+	at org.testng.Assert.fail(Assert.java:110)
+	at org.testng.Assert.failNotEquals(Assert.java:1577)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:149)
+	at org.testng.Assert.assertEquals(Assert.java:131)
+	at org.testng.Assert.assertEquals(Assert.java:1066)
+	at org.testng.Assert.assertEquals(Assert.java:1030)
+	at StepDefinitions.LoginPageSteps.Error_Msg_Validation(LoginPageSteps.java:77)
+	at ✽.Admin should see the Error message please check expected &apos;Please enter your username&apos; displays(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/01Login.feature:28)
+</pre></div></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user is created when only mandatory fields are entered with valid data", "Optional[User Details Popup Validation]"</td>
+<td><div><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;User Added Successfully&apos;]&quot;}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ceef02da6b199a58d458d10d10f086f, findElement {using=xpath, value=//div[text()=&apos;User Added Successfully&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\nsatc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ceef02da6b199a58d458d10d10f086f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.addUserPage.getSucessMsg(addUserPage.java:212)
+	at StepDefinitions.AddUserPageSteps.admin_gets_a_message(AddUserPageSteps.java:111)
+	at ✽.Admin gets a message &quot;User Added Successfully&quot;(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_2addUser.feature:50)
+</pre></div><a href='#' onClick='toggleBox("stack-trace2033456716", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace2033456716'><pre>org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {&quot;method&quot;:&quot;xpath&quot;,&quot;selector&quot;:&quot;//div[text()=&apos;User Added Successfully&apos;]&quot;}
+  (Session info: chrome=124.0.6367.79)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: &apos;4.9.1&apos;, revision: &apos;eb2032df7f&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [8ceef02da6b199a58d458d10d10f086f, findElement {using=xpath, value=//div[text()=&apos;User Added Successfully&apos;]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 124.0.6367.79, chrome: {chromedriverVersion: 124.0.6367.91 (51df0e5e17a8..., userDataDir: C:\Users\nsatc\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:51093}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:51093/devtoo..., se:cdpVersion: 124.0.6367.79, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 8ceef02da6b199a58d458d10d10f086f
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:193)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:183)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
+	at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
+	at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at PageObjects.addUserPage.getSucessMsg(addUserPage.java:212)
+	at StepDefinitions.AddUserPageSteps.admin_gets_a_message(AddUserPageSteps.java:111)
+	at ✽.Admin gets a message &quot;User Added Successfully&quot;(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_2addUser.feature:50)
+</pre></div></td>
+<td>9</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validating the Search with unrelated keyword", "Optional[User page validation]"</td>
+<td><div><pre>java.lang.AssertionError: Search result not found
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at StepDefinitions.UserPageSteps.admin_should_see_zero_entries_on_the_data_table(UserPageSteps.java:201)
+	at ✽.Admin should see zero entries on the data table(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_1user.feature:53)
+</pre></div><a href='#' onClick='toggleBox("stack-trace1471478814", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1471478814'><pre>java.lang.AssertionError: Search result not found
+	at org.junit.Assert.fail(Assert.java:89)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at StepDefinitions.UserPageSteps.admin_should_see_zero_entries_on_the_data_table(UserPageSteps.java:201)
+	at ✽.Admin should see zero entries on the data table(file:///C:/Users/nsatc/git/Team17_Testing_Squad/src/test/resources/Features/05_1user.feature:53)
+</pre></div></td>
+<td>7</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data rows for checkbox", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate multiple program deletion by selecting multiple check boxes", "Optional[Multiple Delete Program]"</td>
+<td></td>
+<td>15</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate reject alert", "Optional[Delete Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify the response time", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate loginpage color", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate the delete icon below the header", "Optional[Delete Multiple Batches]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate  field alignment in DashboardPage", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate '+ A New batch' in Batch Page", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate correct order in navigation bar", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate  field alignment in DashboardPage", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for invalid fields", "Optional[Add New Batch]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify after login  admin lands on manage program as dashboard page", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Last page link", "Optional[Pagination]"</td>
+<td></td>
+<td>53</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields exist in pop", "Optional[Add New Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click No on deletion window", "Optional[Delete Program details]"</td>
+<td></td>
+<td>5</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if description is optional field", "Optional[Add New Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin sorts User details by ID", "Optional[Sorting User Details on Manage User Page]"</td>
+<td></td>
+<td>6</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User link on navigation bar", "Optional[Navigation Validation from Manage Program to other Page]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate landing in Batch page", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate loginpage color", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Previous page link", "Optional[Pagination]"</td>
+<td></td>
+<td>53</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin sorts User details by Location", "Optional[Sorting User Details on Manage User Page]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data table headers in the Batch Page", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify First page link", "Optional[Pagination]"</td>
+<td></td>
+<td>53</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate multiple program deletion by selecting Single checkbox", "Optional[Multiple Delete Program]"</td>
+<td></td>
+<td>10</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validates Sorting(data ordering) on the Program Data table", "Optional[Sorting Validation]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Delete Feature", "Optional[Delete Program details]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Next page link", "Optional[Pagination]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate  field alignment in DashboardPage", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Logout button function", "Optional[Logout Functionality]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Page Not found", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Batch link on navigation bar", "Optional[Navigation Validation from Manage Program to other Page]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields exist in pop", "Optional[Add New Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify LMS title", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields exist in pop", "Optional[Add New Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate navigation bar text", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for single row delete", "Optional[Delete Multiple Batches]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if you get error message when mandatory fields are erased", "Optional[Edit Batch]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel button on User Details form", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>6</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pagination in the Batch Page", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for multi row delete", "Optional[Delete Multiple Batches]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials by clicking Login button through Keypad", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data rows for edit icon", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin sorts User details by Name", "Optional[Sorting User Details on Manage User Page]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login page elements and invalid credentials", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate logo is displayed in loginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>4</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the update throws error with invalid valued", "Optional[Edit Batch]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate accept alert", "Optional[Delete Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Close X icon on Confirm Deletion alert in the Program module", "Optional[Delete Program details]"</td>
+<td></td>
+<td>5</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate correct order in navigation bar", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate navigation bar text", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate data rows for delete icon", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if description field is optional in update", "Optional[Edit Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify after login  admin lands on manage program as dashboard page", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate header in the Batch Page", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate details for Confirm Deletion form", "Optional[Delete Program details]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate correct order in navigation bar", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate pop up for adding batch", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate field allignments in loginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate correct order in navigation bar", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check for error messages for mandatory fields", "Optional[Add New Batch]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User Details Popup window", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Empty form submission", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>6</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Verify Logout button function", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Click Yes on deletion window", "Optional[Delete Program details]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Common Delete button enabled after clicking on any checkbox", "Optional[Multiple Delete Program]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields exist in pop", "Optional[Add New Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate navigation bar text", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate navigation bar text", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate User page elements", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Cancel/Close(X) icon on User Details form", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields are updated", "Optional[Edit Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user is created when only optional fields are entered with valid data", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>7</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login with valid credentials", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the fields exist in pop", "Optional[Add New Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate input fields and text boxes in user details form", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate login page elements and invalid credentials", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate  field alignment in DashboardPage", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if user is created when invalid data is entered in all of the fields", "Optional[User Details Popup Validation]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level edit icon", "Optional[Edit Batch]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate row level delete icon", "Optional[Delete Batch]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Admin sorts User details by Phone number", "Optional[Sorting User Details on Manage User Page]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Delete button in Batch Page", "Optional[Batch Page Validation]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate url for UserPg", "Optional[User page validation]"</td>
+<td></td>
+<td>2</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate Fields are displayed in LoginPage", "Optional[Home Page Verification]"</td>
+<td></td>
+<td>0</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Validate  field alignment in DashboardPage", "Optional[Dashboard Verification]"</td>
+<td></td>
+<td>1</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+<tr>
+<td title='Runner.MyTestRunner.runScenario()'><b>runScenario</b><br>Test class: Runner.MyTestRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "Check if the program details are added in data table", "Optional[Add New Batch]"</td>
+<td></td>
+<td>3</td>
+<td>Runner.MyTestRunner@6ca18a14</td></tr>
+</table><p>
+</body>
+</html>
