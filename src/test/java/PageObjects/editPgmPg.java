@@ -9,7 +9,7 @@ public class editPgmPg {
 	
 	private WebDriver driver;
 
-	private By programLink =By.id("program");
+	private By programLink =By.xpath("//*[@id=\"program\"]");
 	private By pgmname =By.id("programName");
 	private By desc =By.id("programDescription");
 	private By sortone =By.xpath("//p-sorticon[@field='programName']");
@@ -21,6 +21,7 @@ public class editPgmPg {
 	private By cancelBtn =By.xpath("//span[normalize-space()='Cancel']");
 	private By Pgmtxt =By.xpath("//div[normalize-space()='Manage Program']");
 	private By toastmsg =By.xpath("//div[@role='alert']");
+	private By toastmsgcls =By.xpath("//span[@class='p-toast-icon-close-icon pi pi-times ng-tns-c90-11']");
 	private By PgmNameErrinvalid =By.xpath("//small[contains(text(),'This field should start with an alphabet, no speci')]");
 	private By PgmDescErrinvalid =By.xpath("//small[contains(text(),'This field should start with an alphabet and min 2')]");
 	
@@ -110,5 +111,9 @@ public class editPgmPg {
 	{
 		return driver.findElement(toastmsg).getText();
 	}
+	
+	public void closeToast() {
+	    driver.findElement(toastmsgcls).click();
+    }
 	
 }

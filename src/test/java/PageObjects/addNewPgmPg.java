@@ -4,12 +4,17 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class addNewPgmPg {
 	
 	private WebDriver driver;
+	WebDriverWait wait;
 	
+	private By Pgmlink = By.xpath("//*[@id=\"program\"]");
 	private By Pgmtxt =By.xpath("//div[normalize-space()='Manage Program']");
+	private By pgmDetailwin =By.id("pr_id_2-label");
 	private By newpgmlink =By.xpath("//button[@id='new']");
 	private By cancelBtn =By.xpath("//span[normalize-space()='Cancel']");
 	private By saveBtn =By.xpath("//span[normalize-space()='Save']");
@@ -24,8 +29,8 @@ public class addNewPgmPg {
 	private By PgmDescErrinvalid =By.xpath("//small[contains(text(),'This field should start with an alphabet and min 2')]");
 	private By PgmStsErr =By.xpath("//small[normalize-space()='Status is required.']");
 	private By toastmsg =By.xpath("//div[@role='alert']");
-
-	
+	private By toastmsgcls =By.xpath("//button[@class='p-toast-icon-close p-link ng-tns-c90-20 p-ripple ng-star-inserted']");
+		
 
 	public addNewPgmPg(WebDriver driver) {
 		this.driver = driver;
@@ -35,6 +40,24 @@ public class addNewPgmPg {
 	{
 		return driver.findElement(Pgmtxt).getText();
 	}
+	
+	public String getdashboardPageTitle()
+	{
+		return driver.getTitle();
+	}
+	
+	public String getPgmEditWin()
+	{
+		return driver.findElement(pgmDetailwin).getText();
+	}
+	
+	public void clickprogramLink() {
+//		wait.until(ExpectedConditions.elementToBeClickable(By.id("program"))).click();
+
+//		WebElement PgmLink = wait.until(elementToBeClickable(WebElement Pgmlink));
+//		PgmLink.click();
+	    driver.findElement(Pgmlink).click();
+    }
 	
 	public void clickanewpgmLink() {
 	    driver.findElement(newpgmlink).click();
@@ -77,6 +100,7 @@ public class addNewPgmPg {
 	public void clicksave() {
 	    driver.findElement(saveBtn).click();
     }
+	
 	
 	public void EnterPgmName(String name ) throws InterruptedException {
 		WebElement Pgmname = driver.findElement(pgmName);
@@ -131,4 +155,7 @@ public class addNewPgmPg {
 	{
 		return driver.findElement(toastmsg).getText();
 	}
+	public void closeToast() {
+	    driver.findElement(toastmsgcls).click();
+    }
 }

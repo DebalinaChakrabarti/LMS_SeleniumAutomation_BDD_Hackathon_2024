@@ -1,10 +1,10 @@
 Feature: Update Program Details
 
   Background: Admin is on dashboard page after Login and clicks Program on the navigation bar
-    Given admin enters the LMS site
-    When Admin enter <username> and <password>
-    Then Admin suceessfully loggedin
-
+     Given Admin is on Dashboard page after login for Manage Program
+    When Clicks Program page
+    Then Validate Admin is on Program window for edit
+    
   Scenario: Validate Edit Feature
     Given Admin is on Manage Program Page for edit
     When Admin clicks Edit icon on the data table for any row

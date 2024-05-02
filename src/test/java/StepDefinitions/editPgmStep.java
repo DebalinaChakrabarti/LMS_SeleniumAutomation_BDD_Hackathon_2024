@@ -1,5 +1,6 @@
 package StepDefinitions;
 
+import java.time.Duration;
 import java.util.List;
 import java.util.Map;
 
@@ -25,13 +26,28 @@ public class editPgmStep {
 	ExcelReader sheetReader = new ExcelReader();
 
 
+@When("Clicks Program page")
+public void clicks_program_page() {
+    // Write code here that turns the phrase above into concrete actions
+	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(1000));
+	enp.clickProgramLink();
+	
+}
+
+@Then("Validate Admin is on Program window for edit")
+public void validate_admin_is_on_program_window_for_edit() {
+    // Write code here that turns the phrase above into concrete actions
+	System.out.println(enp.getPgmPageTitletxt());
+	Assert.assertTrue(enp.getPgmPageTitletxt().equalsIgnoreCase("Manage Program"));
+	
+}
+
 @Given("Admin is on Manage Program Page for edit")
 public void admin_is_on_manage_program_page_for_edit() throws InterruptedException {
     // Write code here that turns the phrase above into concrete actions
 	Thread.sleep(3000);
-	enp.clickProgramLink();
+//	enp.clickProgramLink();
 	System.out.println(enp.getPgmPageTitletxt());
-	Assert.assertTrue(enp.getPgmPageTitletxt().equalsIgnoreCase("Manage Program"));
 }
 
 	@When("Admin clicks Edit icon on the data table for any row")
@@ -83,6 +99,10 @@ public void admin_is_on_manage_program_page_for_edit() throws InterruptedExcepti
 
 		String message = enp.toastMsg();
 		System.out.println(message);
+		Assert.assertTrue(message.contains("Success"));
+
+//		enp.closeToast();
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(2000));
 
 	}
 
@@ -112,7 +132,10 @@ public void admin_is_on_manage_program_page_for_edit() throws InterruptedExcepti
 
 		String messagetwo = enp.toastMsg();
 		System.out.println(messagetwo);
-	
+		Assert.assertTrue(messagetwo.contains("Success"));
+
+//		enp.closeToast();
+
 	}
 
 	@When("Admin updates the Status {string} {int}  and clicks save button")
@@ -152,6 +175,9 @@ public void admin_is_on_manage_program_page_for_edit() throws InterruptedExcepti
 
 		String messagethr = enp.toastMsg();
 		System.out.println(messagethr);
+		Assert.assertTrue(messagethr.contains("Success"));
+
+//		enp.closeToast();
 
 	}
 
@@ -204,6 +230,7 @@ public void admin_is_on_manage_program_page_for_edit() throws InterruptedExcepti
 		LoggerLoad.info("Admin can see the Program details modal disappears and can see nothing changed for particular program");
 
 		System.out.println(enp.getPgmPageTitletxt());
+		Assert.assertTrue(enp.getPgmPageTitletxt().equalsIgnoreCase("Manage Program"));
 
 	}
 }

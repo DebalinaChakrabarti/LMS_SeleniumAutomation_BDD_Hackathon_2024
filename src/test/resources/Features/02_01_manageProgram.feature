@@ -1,12 +1,12 @@
 Feature: Manage Program Page Validation
-
-  Scenario: logged LMS portal as admin status
-    Given admin enters the LMS site
-    When Admin enter <username> and <password>
-    Then Admin suceessfully loggedin
+#
+  #Scenario: logged LMS portal as admin status
+    #Given admin enters the LMS site
+    #When Admin enter <username> and <password>
+    #Then Admin suceessfully loggedin
 
   Scenario Outline: Validate elements in Program page
-    Given Admin is on dashboard page after Login
+    Given Admin is on Dashboard page after login for Manage Program
     When Admin clicks Program link on the navigation bar
     Then Validate the Program page <elements>
 

@@ -1,13 +1,12 @@
 Feature: Add New Program
 
   Background: Admin is on dashboard page after Login and clicks Program on the navigation bar
-    Given admin enters the LMS site
-    When Admin enter <username> and <password>
-    Then Admin suceessfully loggedin
+    Given Admin is on Dashboard page after login for Manage Program
+    When Clicks Program page and clicks A New Program button
+    Then Validate Admin is on Program Details modal window
 
   Scenario Outline: Validate elements in Program deatails modal are visible
-    Given Admin is on Manage Program Page
-    When Admin clicks A New Program button
+    Given Admin is on Program Details modal window
     Then Validate Program details modal <elements>
 
     Examples: 

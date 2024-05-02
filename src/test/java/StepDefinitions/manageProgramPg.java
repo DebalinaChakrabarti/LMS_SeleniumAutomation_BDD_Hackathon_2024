@@ -3,6 +3,7 @@ package StepDefinitions;
 import java.time.Duration;
 
 import org.openqa.selenium.WebDriver;
+import org.testng.Assert;
 
 import DriverFactory.DriverFactory;
 import PageObjects.manageProgramPage;
@@ -17,35 +18,27 @@ public class manageProgramPg {
 	
 	private manageProgramPage mpp = new manageProgramPage(DriverFactory.getDriver()) ;
 	
-	@Given("admin enters the LMS site")
-	public void admin_enters_the_lms_site() {
-	    // Write code here that turns the phrase above into concrete actions
-		mpp.getLoginPage();
-	}
-
-	@When("Admin enter <username> and <password>")
-	public void admin_enter_username_and_password() {
-	    // Write code here that turns the phrase above into concrete actions
-		mpp.setUserName("sdetorganizers@gmail.com");
-		mpp.setPassword("UIHackathon@02");
-		mpp.clickOnLoginButton();
-	}
+//	@Given("admin enters the LMS site")
+//	public void admin_enters_the_lms_site() {
+//	    // Write code here that turns the phrase above into concrete actions
+//		mpp.getLoginPage();
+//	}
+//
+////	@When("Admin enter <username> and <password>")
+//	public void admin_enter_username_and_password() {
+//	    // Write code here that turns the phrase above into concrete actions
+//		mpp.setUserName("sdetorganizers@gmail.com");
+//		mpp.setPassword("UIHackathon@02");
+//		mpp.clickOnLoginButton();
+//	}
+//	
+//	@Then("Admin suceessfully loggedin")
+//	public void admin_suceessfully_loggedin() {
+//	    // Write code here that turns the phrase above into concrete actions
+//		mpp.getLoginPageTitle();
+//	}
 	
-	@Then("Admin suceessfully loggedin")
-	public void admin_suceessfully_loggedin() {
-	    // Write code here that turns the phrase above into concrete actions
-		mpp.getLoginPageTitle();
-	}
 	
-	@Given("Admin is on dashboard page after Login")
-	public void admin_is_on_dashboard_page_after_login() {
-	    // Write code here that turns the phrase above into concrete actions
-		System.out.println("dashboard page title : "+mpp.getdashboardPageTitle().trim());
-		
-		}
-
-	
-
 	@When("Admin clicks Program link on the navigation bar")
 	public void admin_clicks_program_link_on_the_navigation_bar() {
 	    // Write code here that turns the phrase above into concrete actions
@@ -63,7 +56,8 @@ public class manageProgramPg {
 		System.out.println(prgmtxt);
 		String Pgmtxt =mpp.getPgmPageTitletxt();
 		System.out.println("Manage Program datatable title : "+Pgmtxt);
-		
+		Assert.assertTrue(Pgmtxt.equalsIgnoreCase("Manage Program"));
+
 		LoggerLoad.info("End : Validate the Program page Validate Page title");
 	}
 
@@ -74,7 +68,7 @@ public class manageProgramPg {
 		
 		boolean Pgtntxt = mpp.getPaginationtxt();
 		System.out.println("Pagination text is displayed : "+Pgtntxt);
-		
+		Assert.assertEquals(true, Pgtntxt);
 		LoggerLoad.info("End : Validate the Program page Validate Pagination text is displayed");
 	}
 
@@ -85,7 +79,7 @@ public class manageProgramPg {
 		
 		boolean Fttxt = mpp.getFootertxt();
 		System.out.println("Footer text is displayed : "+Fttxt);
-		
+		Assert.assertEquals(true, Fttxt);
 		LoggerLoad.info("End : Validate the Program page Validate datatable footer text is displayed");
 	}
 
@@ -96,7 +90,8 @@ public class manageProgramPg {
 		
 		boolean mltdlt = mpp.multDelBtn();
 		System.out.println("Multiple delete option button is displayed : "+mltdlt);
-		
+		Assert.assertEquals(true, mltdlt);
+
 		LoggerLoad.info("End : Validate the Program page Validate multiple program Delete Button is visible");
 	}
 
@@ -107,6 +102,7 @@ public class manageProgramPg {
 		
 		boolean newPgm = mpp.newPgmBtn();
 		System.out.println("A New Program button is displayed : "+newPgm);	
+		Assert.assertEquals(true, newPgm);
 
 		LoggerLoad.info("End : Validate the Program page Validate A New Program button is visible");	
 	}
@@ -117,16 +113,24 @@ public class manageProgramPg {
 		LoggerLoad.info("Start : Validate the Program page Validate Datatable Headers are visible");
 		
 		boolean pgmnm = mpp.pgmName();
-		System.out.println("Program Name is displayed : "+pgmnm);	
+		System.out.println("Program Name is displayed : "+pgmnm);
+		Assert.assertEquals(true, pgmnm);
+
 		
 		boolean pgmds = mpp.pgmDesc();
 		System.out.println("Program Description is displayed : "+pgmds);
+		Assert.assertEquals(true, pgmds);
+
 		
 		boolean pgmsts = mpp.Pgmsts();
 		System.out.println("Program status is displayed : "+pgmsts);
+		Assert.assertEquals(true, pgmsts);
+
 		
 		boolean eddl = mpp.edtdlt();
 		System.out.println("Edit/Delete is displayed : "+eddl);
+		Assert.assertEquals(true, eddl);
+
 		
 		LoggerLoad.info("End : Validate the Program page Validate Datatable Headers are visible");
 		
@@ -138,13 +142,19 @@ public class manageProgramPg {
 		LoggerLoad.info("Start : Validate the Program page Validate Sortable icon near datatable header is visible");
 		
 		boolean srtone = mpp.srtOne();
-		System.out.println("Program Name sort icon is displayed : "+srtone);	
+		System.out.println("Program Name sort icon is displayed : "+srtone);
+		Assert.assertEquals(true, srtone);
+
 		
 		boolean srttwo = mpp.srtTwo();
 		System.out.println("Program Description sort icon is displayed : "+srttwo);
+		Assert.assertEquals(true, srttwo);
+
 		
 		boolean srtthr = mpp.srtThr();
 		System.out.println("Program status sort icon is displayed : "+srtthr);	
+		Assert.assertEquals(true, srtthr);
+
 
 		LoggerLoad.info("End : Validate the Program page Validate Sortable icon near datatable header is visible");		
 	}
@@ -155,19 +165,29 @@ public class manageProgramPg {
 		LoggerLoad.info("Start : Validate the Program page Validate table checkbox are visible");
 		
 		boolean chkone = mpp.chkOne();
-		System.out.println("checkbox one for row one is displayed : "+chkone);	
+		System.out.println("checkbox one for row one is displayed : "+chkone);
+		Assert.assertEquals(true, chkone);
+
 		
 		boolean chktwo = mpp.chkTwo();
 		System.out.println("checkbox one for row two is displayed : "+chktwo);
+		Assert.assertEquals(true, chktwo);
+
 		
 		boolean chkthr = mpp.chkThr();
-		System.out.println("checkbox one for row three is displayed : "+chkthr);	
+		System.out.println("checkbox one for row three is displayed : "+chkthr);
+		Assert.assertEquals(true, chkthr);
+
 		
 		boolean chkfour = mpp.chkFour();
-		System.out.println("checkbox one for row four is displayed : "+chkfour);	
+		System.out.println("checkbox one for row four is displayed : "+chkfour);
+		Assert.assertEquals(true, chkfour);
+
 		
 		boolean chkfive = mpp.chkFive();
 		System.out.println("checkbox one for row five is displayed : "+chkfive);
+		Assert.assertEquals(true, chkfive);
+
 
 		LoggerLoad.info("End : Validate the Program page Validate table checkbox are visible");		
 	}
@@ -178,10 +198,14 @@ public class manageProgramPg {
 		LoggerLoad.info("Start : Validate the Program page Validate editprogram and deleteprogram button are visible");
 		
 		boolean editicon = mpp.editicon();
-		System.out.println("Edit icon is displayed : "+editicon);	
+		System.out.println("Edit icon is displayed : "+editicon);
+		Assert.assertEquals(true, editicon);
+
 		
 		boolean delicon = mpp.deleteicon();
 		System.out.println("Delete icon is displayed : "+delicon);
+		Assert.assertEquals(true, delicon);
+
 
 		LoggerLoad.info("End : Validate the Program page Validate editprogram and deleteprogram button are visible");
 	}
@@ -193,11 +217,14 @@ public class manageProgramPg {
 		
 		boolean srchbox = mpp.srchBox();
 		System.out.println("Search box is displayed : "+srchbox);
+		Assert.assertEquals(true, srchbox);
+
 		
 		String srchtxt =mpp.srchtxt();
 		System.out.println("Search box placeholder text is "+srchtxt);
-		
-		
+		Assert.assertTrue(srchtxt.contains("Search"));
+
+
 
 		LoggerLoad.info("End : Validate the Program page Validate Search box input is visible");
 	}
