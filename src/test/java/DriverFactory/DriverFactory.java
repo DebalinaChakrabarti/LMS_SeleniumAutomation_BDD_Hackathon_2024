@@ -31,8 +31,10 @@ public class DriverFactory {
 //		browser = System.getenv("BROWSER");
 		if(browser.equals("chrome"))
 		{
+
 		//	ChromeOptions opt = new ChromeOptions();
 			WebDriverManager.chromedriver().setup();
+
 			//System.setProperty("webdriver.chrome.driver","../../Downloads/chromedriver-mac-x64/chromedriver");
 			//System.out.println("Updating Chrome Version");
 
@@ -41,7 +43,7 @@ public class DriverFactory {
 			//options.addArguments("--no-sandbox");
 			//options.addArguments("--disable-dev-shm-usage");
 			//options.addArguments("--headless");
-			tlDriver.set(new ChromeDriver());
+//			tlDriver.set(new ChromeDriver());
 
 			
 		}

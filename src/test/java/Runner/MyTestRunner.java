@@ -4,7 +4,11 @@ import io.cucumber.testng.AbstractTestNGCucumberTests;
 
 
 @io.cucumber.testng.CucumberOptions(
-		features= {"src/test/resources/Features"},
+		features= {"src/test/resources/Features/01_login.feature"
+				,"src/test/resources/Features/02_01_manageProgram.feature"
+				,"src/test/resources/Features/02_02_addNewProgram.feature"
+				,"src/test/resources/Features/02_03_editProgramDetails.feature"
+				},
 		glue= {"StepDefinitions","Hooks"},
 
 		plugin= {"pretty","html:target/cucumber-reports/reports.html",
