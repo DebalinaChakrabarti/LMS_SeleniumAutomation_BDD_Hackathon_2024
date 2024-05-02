@@ -39,8 +39,8 @@ public class manageProgramPg {
 //	}
 	
 	
-	@When("Admin clicks Program link on the navigation bar")
-	public void admin_clicks_program_link_on_the_navigation_bar() {
+	@When("Admin has clicked Program link on the navigation bar")
+	public void admin_has_clicked_program_link_on_the_navigation_bar() {
 	    // Write code here that turns the phrase above into concrete actions
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		mpp.clickprogramLink();

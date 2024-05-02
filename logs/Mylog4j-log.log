@@ -664,3 +664,879 @@
 [INFO ]2024-05-01 22:54:57.426[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
 [INFO ]2024-05-01 22:54:57.473[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
 [INFO ]2024-05-01 22:54:57.645[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page
+[INFO ]2024-05-02 00:18:14.475[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:18:14.602[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:18:16.459[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:18:16.536[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:18:18.097[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:18:18.158[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:18:19.661[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:18:19.707[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:18:21.228[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:18:21.284[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:18:22.794[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:18:22.997[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:18:24.511[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:18:24.659[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:18:26.194[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:18:26.445[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:18:27.925[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:18:28.041[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:18:29.533[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:18:29.645[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:19:15.458[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:19:15.594[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:19:17.541[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:19:17.608[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:19:19.240[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:19:19.303[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:19:20.882[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:19:20.937[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:19:22.536[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:19:22.590[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:19:24.133[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:19:24.324[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:19:25.901[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:19:26.050[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:19:27.617[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:19:27.872[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:19:29.486[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:19:29.599[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:19:31.127[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:19:31.227[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:20:36.190[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:20:36.296[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:20:37.936[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:20:38.001[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:20:39.752[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:20:39.812[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:20:41.502[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:20:41.558[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:20:43.200[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:20:43.272[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:20:44.903[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:20:45.080[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:20:46.744[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:20:46.890[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:20:48.568[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:20:48.837[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:20:50.625[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:20:50.730[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:20:52.537[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:20:52.650[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:20:53.133[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 00:20:53.852[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 00:20:54.677[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 00:20:55.382[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 00:20:55.695[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 00:20:56.273[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 00:20:58.054[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 00:20:58.684[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 00:20:59.175[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 00:20:59.809[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:21:00.170[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:21:00.872[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:21:01.252[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:21:01.931[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:21:02.734[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:21:03.506[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:21:04.415[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:21:05.293[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:21:06.155[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:21:06.880[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 00:21:06.987[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 00:21:07.511[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 00:21:08.602[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 00:21:12.056[main]Utilities.LoggerLoad1)-Admin updates the program name {string} {int} field and clicks save button
+[INFO ]2024-05-02 00:21:13.155[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Updated alert and able to see the updated name in the table for the particular program
+[INFO ]2024-05-02 00:21:16.488[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 00:21:17.691[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 00:21:18.094[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 00:21:19.422[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 00:21:19.773[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 00:21:21.135[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 00:21:21.522[main]Utilities.LoggerLoad1)-Admin clicks Cancel button on edit modal
+[INFO ]2024-05-02 00:21:21.774[main]Utilities.LoggerLoad1)-Admin can see the Program details modal disappears and can see nothing changed for particular program
+[INFO ]2024-05-02 00:29:42.835[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:29:42.932[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:29:44.660[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:29:44.726[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:29:46.380[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:29:46.445[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:29:48.220[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:29:48.270[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:29:49.959[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:29:50.016[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:29:52.466[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:29:52.692[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:29:54.422[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:29:54.566[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:29:56.402[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:29:56.684[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:29:58.373[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:29:58.488[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:30:00.163[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:30:00.271[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:30:00.747[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 00:30:01.486[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 00:30:02.282[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 00:30:03.053[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 00:30:03.354[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 00:30:03.961[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 00:30:05.782[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 00:30:06.705[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 00:30:07.249[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 00:30:07.929[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:30:08.295[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:30:08.938[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:30:09.424[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:30:10.176[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:30:11.080[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:30:11.915[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:30:12.785[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:30:13.678[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:30:14.707[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:30:15.434[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 00:30:15.541[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 00:30:16.097[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 00:30:17.200[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 00:30:20.692[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 00:30:22.100[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 00:30:22.483[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 00:30:23.869[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 00:30:24.232[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 00:30:25.709[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 00:30:26.084[main]Utilities.LoggerLoad1)-Admin clicks Cancel button on edit modal
+[INFO ]2024-05-02 00:30:26.348[main]Utilities.LoggerLoad1)-Admin can see the Program details modal disappears and can see nothing changed for particular program
+[INFO ]2024-05-02 00:36:14.833[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:36:14.930[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:36:16.734[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:36:16.794[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:36:18.692[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:36:18.760[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:36:20.592[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:36:20.673[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:36:22.477[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:36:22.533[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:36:24.259[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:36:24.457[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:36:26.353[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:36:26.508[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:36:28.282[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:36:28.535[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:36:30.349[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:36:30.466[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:36:32.445[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:36:32.550[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:36:32.996[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 00:36:33.684[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 00:36:34.532[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 00:36:35.256[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 00:36:35.540[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 00:36:36.110[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 00:36:37.883[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 00:36:38.528[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 00:36:39.018[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 00:36:39.675[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:36:40.016[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:36:40.675[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:36:41.020[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:36:41.659[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:36:42.552[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:36:43.347[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:36:44.238[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:36:44.990[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:36:45.934[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:36:46.652[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 00:36:46.768[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 00:36:47.318[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 00:36:48.498[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 00:47:32.650[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:47:32.716[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:47:32.865[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:47:32.899[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:47:33.062[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:47:33.100[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:47:33.242[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:47:33.278[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:47:33.418[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:47:33.456[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:47:33.604[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:47:33.734[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:47:33.921[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:47:34.036[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:47:34.165[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:47:34.321[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:47:34.452[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:47:34.523[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:47:34.633[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:47:34.690[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:47:34.948[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 00:47:35.469[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 00:47:35.930[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 00:47:36.423[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 00:47:36.611[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 00:47:36.929[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 00:47:38.226[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 00:47:38.735[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 00:47:39.070[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 00:47:39.532[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:47:39.720[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:47:40.154[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:47:40.344[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:47:40.781[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:47:41.421[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:47:41.911[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:47:42.665[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:47:43.166[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:47:43.908[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:47:44.397[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 00:47:44.498[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 00:47:44.857[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 00:47:45.794[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 00:47:48.885[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-02 00:47:51.047[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-02 00:47:53.302[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-02 00:47:53.378[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-02 00:47:53.403[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-02 00:47:53.404[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-02 00:47:55.700[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 00:47:57.794[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-02 00:47:59.798[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-02 00:48:01.046[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 00:48:03.174[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-02 00:48:03.176[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-02 00:48:09.680[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-02 00:48:09.682[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-02 00:48:09.790[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-02 00:48:09.859[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:48:09.924[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-02 00:48:14.269[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:48:15.481[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-02 00:48:19.817[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:48:23.122[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-02 00:48:27.463[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:48:29.742[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-02 00:48:35.312[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:48:37.394[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 00:48:39.398[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 00:48:39.503[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 00:48:39.528[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 00:48:39.552[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-02 00:48:39.666[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-02 00:48:39.732[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-02 00:48:39.861[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-02 00:48:39.918[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-02 00:48:40.106[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 00:48:40.128[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-02 00:48:40.188[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-02 00:48:40.261[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-02 00:48:40.401[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-02 00:48:40.470[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-02 00:48:40.657[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 00:48:40.679[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-02 00:48:40.732[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-02 00:48:40.801[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-02 00:48:40.927[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-02 00:48:40.977[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-02 00:48:41.208[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:48:43.294[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 00:48:43.328[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 00:48:43.349[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-02 00:48:44.481[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-02 00:48:44.581[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:48:46.630[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 00:48:46.658[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 00:48:46.680[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-02 00:48:47.812[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-02 00:54:35.439[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:54:37.501[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:54:39.575[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:56:29.401[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:56:29.461[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 00:56:29.566[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:56:29.596[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 00:56:29.710[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:56:29.740[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 00:56:29.857[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:56:29.884[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 00:56:30.002[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:56:30.034[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 00:56:30.158[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:56:30.276[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 00:56:30.433[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:56:30.550[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 00:56:30.729[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:56:30.884[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 00:56:31.022[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:56:31.102[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 00:56:31.218[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:56:31.281[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 00:56:31.534[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 00:56:32.011[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 00:56:32.530[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 00:56:33.045[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 00:56:33.212[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 00:56:33.515[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 00:56:35.017[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 00:56:35.491[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 00:56:35.857[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 00:56:36.307[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:56:36.503[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:56:36.924[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 00:56:37.103[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 00:56:37.527[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:56:38.130[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:56:38.597[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:56:39.160[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:56:39.610[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 00:56:40.221[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 00:56:40.671[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 00:56:40.735[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 00:56:41.043[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 00:56:41.911[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 00:56:44.919[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-02 00:56:47.097[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-02 00:56:49.261[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-02 00:56:49.350[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-02 00:56:49.374[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-02 00:56:49.374[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-02 00:56:51.693[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 00:56:53.792[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-02 00:56:55.800[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-02 00:56:57.105[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 00:56:59.249[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-02 00:56:59.250[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-02 00:57:05.724[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-02 00:57:05.726[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-02 00:57:05.838[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-02 00:57:05.910[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:57:05.977[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-02 00:57:10.342[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:57:11.503[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-02 00:57:15.863[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:57:19.186[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-02 00:57:23.581[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 00:57:25.939[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-02 00:57:31.546[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:57:33.588[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 00:57:35.600[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 00:57:35.709[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 00:57:35.738[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 00:57:35.760[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-02 00:57:35.879[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-02 00:57:35.947[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-02 00:57:36.074[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-02 00:57:36.128[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-02 00:57:36.317[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 00:57:36.342[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-02 00:57:36.402[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-02 00:57:36.476[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-02 00:57:36.624[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-02 00:57:36.685[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-02 00:57:36.865[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 00:57:36.888[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-02 00:57:36.942[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-02 00:57:37.009[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-02 00:57:37.131[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-02 00:57:37.177[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-02 00:57:37.412[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:57:39.457[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 00:57:39.494[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 00:57:39.522[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-02 00:57:40.665[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-02 00:57:40.757[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 00:57:42.820[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 00:57:42.855[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 00:57:42.881[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-02 00:57:44.000[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-02 01:03:44.154[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 01:09:46.312[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 01:13:30.175[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 01:13:30.237[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 01:13:30.363[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 01:13:30.393[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 01:13:30.522[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 01:13:30.552[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 01:13:30.677[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 01:13:30.707[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 01:13:30.840[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 01:13:30.869[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 01:13:30.983[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 01:13:31.102[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 01:13:31.213[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 01:13:31.335[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 01:13:31.451[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 01:13:31.593[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 01:13:31.719[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 01:13:31.783[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 01:13:31.920[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 01:13:31.982[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 01:13:32.243[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 01:13:32.794[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 01:13:33.304[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 01:13:33.774[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 01:13:34.027[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 01:13:34.393[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 01:13:35.749[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 01:13:36.269[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 01:13:36.611[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 01:13:37.112[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 01:13:37.304[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 01:13:37.730[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 01:13:37.925[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 01:13:38.494[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 01:13:39.042[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 01:13:39.537[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 01:13:40.157[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 01:13:40.631[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 01:13:41.243[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 01:13:41.689[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 01:13:41.763[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 01:13:42.063[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 01:13:42.808[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 01:13:45.846[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-02 01:13:47.969[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-02 01:13:50.168[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-02 01:13:50.233[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-02 01:13:50.254[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-02 01:13:50.254[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-02 01:13:52.577[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 01:13:54.679[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-02 01:13:56.692[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-02 01:13:58.024[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 01:14:00.132[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-02 01:14:00.133[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-02 01:14:06.591[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-02 01:14:06.592[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-02 01:14:06.705[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-02 01:14:06.777[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 01:14:06.844[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-02 01:14:11.158[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 01:14:12.317[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-02 01:14:16.795[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 01:14:20.116[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-02 01:14:24.494[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 01:14:26.864[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-02 01:14:32.457[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 01:14:34.493[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 01:14:36.505[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 01:14:36.625[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 01:14:36.658[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 01:14:36.678[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-02 01:14:36.795[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-02 01:14:36.869[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-02 01:14:36.998[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-02 01:14:37.058[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-02 01:14:37.248[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 01:14:37.268[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-02 01:14:37.328[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-02 01:14:37.408[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-02 01:14:37.545[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-02 01:14:37.606[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-02 01:14:37.826[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 01:14:37.850[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-02 01:14:37.922[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-02 01:14:38.015[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-02 01:14:38.170[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-02 01:14:38.230[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-02 01:14:38.511[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 01:14:40.554[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 01:14:40.579[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 01:14:40.598[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-02 01:14:41.684[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-02 01:14:41.793[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 01:14:43.865[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 01:14:43.898[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 01:14:43.918[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-02 01:14:45.087[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-02 01:20:45.280[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 01:23:48.806[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 04:23:52.479[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 04:23:54.604[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 10:04:31.277[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:05:03.618[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 12:05:03.760[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 12:05:04.162[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 12:05:04.221[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 12:05:04.442[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 12:05:04.494[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 12:05:04.730[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 12:05:04.779[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 12:05:04.978[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 12:05:05.037[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 12:05:05.262[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 12:05:05.520[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 12:05:05.879[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 12:05:06.093[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 12:05:06.376[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 12:05:06.635[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 12:05:06.847[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 12:05:06.933[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 12:05:07.235[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 12:05:07.368[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 12:05:07.854[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 12:05:08.699[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 12:05:09.420[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 12:05:10.132[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 12:05:10.434[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 12:05:10.955[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 12:05:12.596[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 12:05:13.208[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 12:05:13.626[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 12:05:14.349[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 12:05:14.662[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 12:05:15.353[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 12:05:15.648[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 12:05:16.368[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 12:05:17.448[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 12:05:18.419[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 12:05:19.552[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 12:05:20.340[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 12:05:21.292[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 12:05:22.110[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 12:05:22.231[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 12:05:23.067[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 12:05:24.399[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 12:05:29.245[main]Utilities.LoggerLoad1)-Admin clicks Edit icon on the data table for any row
+[INFO ]2024-05-02 12:05:29.351[main]Utilities.LoggerLoad1)-Admin should see a modal open for Program details to edit
+[INFO ]2024-05-02 12:05:30.818[main]Utilities.LoggerLoad1)-Admin updates the program name {string} {int} field and clicks save button
+[INFO ]2024-05-02 12:05:37.537[main]Utilities.LoggerLoad1)-Admin updates the Description {string} {int}  field and clicks save button
+[INFO ]2024-05-02 12:05:44.211[main]Utilities.LoggerLoad1)-Admin updates the Status {string} {int}  and clicks save button
+[INFO ]2024-05-02 12:05:50.931[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:05:52.273[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:05:53.754[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:05:55.062[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:05:56.391[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:05:58.505[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:05:59.847[main]Utilities.LoggerLoad1)-Admin clicks Cancel button on edit modal
+[INFO ]2024-05-02 12:06:00.293[main]Utilities.LoggerLoad1)-Admin can see the Program details modal disappears and can see nothing changed for particular program
+[INFO ]2024-05-02 12:06:00.475[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-02 12:06:02.591[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-02 12:06:04.749[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-02 12:06:04.829[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-02 12:06:04.852[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-02 12:06:04.858[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-02 12:06:07.140[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 12:06:09.264[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-02 12:06:11.276[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-02 12:06:12.481[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 12:06:14.573[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-02 12:06:14.576[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-02 12:06:20.953[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-02 12:06:20.955[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-02 12:06:21.149[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-02 12:06:21.328[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:06:21.421[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-02 12:06:25.632[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:06:26.804[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-02 12:06:31.122[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:06:34.332[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-02 12:06:38.572[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:06:40.796[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-02 12:06:47.720[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:06:49.762[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:06:51.776[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:06:51.830[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:06:51.858[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:06:51.886[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-02 12:06:51.975[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-02 12:06:52.104[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-02 12:06:52.278[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-02 12:06:52.369[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-02 12:06:52.628[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:06:52.653[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-02 12:06:52.734[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-02 12:06:52.846[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-02 12:06:53.004[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-02 12:06:53.068[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-02 12:06:53.229[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:06:53.248[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-02 12:06:53.314[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-02 12:06:53.402[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-02 12:06:53.573[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-02 12:06:53.629[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-02 12:06:53.881[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:06:55.917[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:06:55.939[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:06:55.957[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-02 12:06:57.071[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-02 12:06:57.207[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:06:59.246[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:06:59.268[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:06:59.288[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-02 12:07:00.346[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-02 12:07:05.496[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:07:07.534[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:07:07.557[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on last page of Program table
+[INFO ]2024-05-02 12:07:12.619[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Previous page link
+[INFO ]2024-05-02 12:07:13.711[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the previous page record on the table with pagination has previous page link
+[INFO ]2024-05-02 12:07:13.868[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:07:15.911[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:07:15.932[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Previous Program page
+[INFO ]2024-05-02 12:07:15.969[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks First page link
+[INFO ]2024-05-02 12:07:17.048[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the very first page record on the table with Previous page link are disabled
+[INFO ]2024-05-02 12:07:22.316[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:07:24.352[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:07:26.366[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:07:26.441[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:07:26.475[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:07:26.508[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on Batch link on Manage Program page
+[INFO ]2024-05-02 12:07:26.665[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to Batch page
+[INFO ]2024-05-02 12:07:26.754[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:07:28.801[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:07:30.814[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:07:30.902[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:07:30.930[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:07:30.956[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
+[INFO ]2024-05-02 12:07:31.091[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page
+[INFO ]2024-05-02 12:29:19.313[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 12:29:19.409[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 12:29:19.596[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 12:29:19.652[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 12:29:19.835[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 12:29:19.881[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 12:29:20.053[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 12:29:20.111[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 12:29:20.303[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 12:29:20.352[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 12:29:20.552[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 12:29:20.731[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 12:29:20.907[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 12:29:21.068[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 12:29:21.267[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 12:29:21.635[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 12:29:21.834[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 12:29:21.927[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 12:29:22.161[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 12:29:22.271[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 12:29:22.707[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 12:29:23.364[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 12:29:24.007[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 12:29:41.248[main]Utilities.LoggerLoad1)-Admin clicks Edit icon on the data table for any row
+[INFO ]2024-05-02 12:29:41.352[main]Utilities.LoggerLoad1)-Admin should see a modal open for Program details to edit
+[INFO ]2024-05-02 12:29:42.477[main]Utilities.LoggerLoad1)-Admin updates the program name {string} {int} field and clicks save button
+[INFO ]2024-05-02 12:29:55.284[main]Utilities.LoggerLoad1)-Admin updates the Description {string} {int}  field and clicks save button
+[INFO ]2024-05-02 12:30:06.544[main]Utilities.LoggerLoad1)-Admin updates the Status {string} {int}  and clicks save button
+[INFO ]2024-05-02 12:30:17.882[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:30:18.763[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:30:19.752[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:30:20.637[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:30:21.571[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:30:22.528[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:30:23.432[main]Utilities.LoggerLoad1)-Admin clicks Cancel button on edit modal
+[INFO ]2024-05-02 12:30:23.791[main]Utilities.LoggerLoad1)-Admin can see the Program details modal disappears and can see nothing changed for particular program
+[INFO ]2024-05-02 12:30:23.891[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-02 12:30:26.064[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-02 12:30:28.255[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-02 12:30:28.319[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-02 12:30:28.349[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-02 12:30:28.350[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-02 12:30:30.673[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 12:30:32.765[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-02 12:30:34.777[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-02 12:30:36.007[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 12:30:38.138[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-02 12:30:38.139[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-02 12:30:44.562[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-02 12:30:44.563[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-02 12:30:44.646[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-02 12:30:44.725[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:30:44.797[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-02 12:30:49.081[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:30:50.242[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-02 12:30:54.640[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:30:57.880[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-02 12:31:02.225[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:31:04.426[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-02 12:31:11.062[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:31:13.123[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:31:15.127[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:31:15.211[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:31:15.241[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:31:15.263[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-02 12:31:15.335[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-02 12:31:15.400[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-02 12:31:15.525[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-02 12:31:15.578[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-02 12:31:15.761[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:31:15.798[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-02 12:31:15.853[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-02 12:31:15.922[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-02 12:31:16.044[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-02 12:31:16.097[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-02 12:31:16.303[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:31:16.326[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-02 12:31:16.382[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-02 12:31:16.461[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-02 12:31:16.604[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-02 12:31:16.657[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-02 12:31:16.893[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:31:18.960[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:31:18.991[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:31:19.010[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-02 12:31:20.137[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-02 12:31:20.229[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:31:22.270[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:31:22.293[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:31:22.315[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-02 12:31:23.403[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-02 12:31:33.623[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:31:35.691[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:31:35.715[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on last page of Program table
+[INFO ]2024-05-02 12:31:45.791[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Previous page link
+[INFO ]2024-05-02 12:31:46.898[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the previous page record on the table with pagination has previous page link
+[INFO ]2024-05-02 12:31:47.083[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:31:49.139[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:31:49.160[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Previous Program page
+[INFO ]2024-05-02 12:31:49.197[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks First page link
+[INFO ]2024-05-02 12:31:50.309[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the very first page record on the table with Previous page link are disabled
+[INFO ]2024-05-02 12:32:00.519[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:32:02.598[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:32:04.613[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:32:04.745[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:32:04.777[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:32:04.798[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on Batch link on Manage Program page
+[INFO ]2024-05-02 12:32:04.881[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to Batch page
+[INFO ]2024-05-02 12:32:04.935[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:32:06.989[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:32:08.994[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:32:09.126[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:32:09.152[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:32:09.173[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
+[INFO ]2024-05-02 12:32:09.266[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page
+[INFO ]2024-05-02 12:47:09.920[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Page title
+[INFO ]2024-05-02 12:47:10.047[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Page title
+[INFO ]2024-05-02 12:47:10.299[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 12:47:10.369[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Pagination text is displayed
+[INFO ]2024-05-02 12:47:10.621[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 12:47:10.696[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate datatable footer text is displayed
+[INFO ]2024-05-02 12:47:11.014[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 12:47:11.095[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate multiple program Delete Button is visible
+[INFO ]2024-05-02 12:47:11.370[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 12:47:11.430[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate A New Program button is visible
+[INFO ]2024-05-02 12:47:11.714[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 12:47:11.922[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Datatable Headers are visible
+[INFO ]2024-05-02 12:47:12.148[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 12:47:12.308[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Sortable icon near datatable header is visible
+[INFO ]2024-05-02 12:47:12.552[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 12:47:12.866[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate table checkbox are visible
+[INFO ]2024-05-02 12:47:13.093[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 12:47:13.199[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate editprogram and deleteprogram button are visible
+[INFO ]2024-05-02 12:47:13.427[main]Utilities.LoggerLoad1)-Start : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 12:47:13.548[main]Utilities.LoggerLoad1)-End : Validate the Program page Validate Search box input is visible
+[INFO ]2024-05-02 12:47:13.981[main]Utilities.LoggerLoad1)-Validate Program details modal Validate buttons are visible
+[INFO ]2024-05-02 12:47:14.737[main]Utilities.LoggerLoad1)-Validate Program details modal Validate all the input name and description fields are visible
+[INFO ]2024-05-02 12:47:15.510[main]Utilities.LoggerLoad1)-Validate Program details modal Validate status radio buttons are visible
+[INFO ]2024-05-02 12:47:16.258[main]Utilities.LoggerLoad1)-Admin clicks Save button without entering any data
+[INFO ]2024-05-02 12:47:16.556[main]Utilities.LoggerLoad1)-Admin gets a Error message alert
+[INFO ]2024-05-02 12:47:17.198[main]Utilities.LoggerLoad1)-Admin enters only Program Name {string} {int} in text box and clicks Save button
+[INFO ]2024-05-02 12:47:20.086[main]Utilities.LoggerLoad1)-Admin gets a message alert for Description and status field
+[INFO ]2024-05-02 12:47:20.656[main]Utilities.LoggerLoad1)-Admin enters only Program Description {string} {int}  in text box and clicks Save button
+[INFO ]2024-05-02 12:47:21.200[main]Utilities.LoggerLoad1)-Admin gets a message alert for program name and status field
+[INFO ]2024-05-02 12:47:22.074[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 12:47:22.448[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 12:47:23.030[main]Utilities.LoggerLoad1)-Admin selects only Status {string} {int}  and clicks Save button
+[INFO ]2024-05-02 12:47:23.368[main]Utilities.LoggerLoad1)-Admin gets a message alert program Name and Description field
+[INFO ]2024-05-02 12:47:24.101[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 12:47:25.016[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 12:47:25.765[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 12:47:26.557[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 12:47:27.231[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in Pgm name and Desc {string} {int} column
+[INFO ]2024-05-02 12:47:28.015[main]Utilities.LoggerLoad1)-Admin gets a Error message alert for invalid inputs
+[INFO ]2024-05-02 12:47:28.679[main]Utilities.LoggerLoad1)-Admin clicks Cancel or Close X Icon on Program Details form
+[INFO ]2024-05-02 12:47:28.783[main]Utilities.LoggerLoad1)-Program Details popup window should be closed without saving
+[INFO ]2024-05-02 12:47:29.279[main]Utilities.LoggerLoad1)-Enter all the required name and description and status {string} {int} with valid values and click Save button
+[INFO ]2024-05-02 12:47:30.325[main]Utilities.LoggerLoad1)-Admin gets a message Successful Program Created alert and able to see the new program added in the data table
+[INFO ]2024-05-02 12:47:34.985[main]Utilities.LoggerLoad1)-Admin clicks Edit icon on the data table for any row
+[INFO ]2024-05-02 12:47:35.052[main]Utilities.LoggerLoad1)-Admin should see a modal open for Program details to edit
+[INFO ]2024-05-02 12:47:36.524[main]Utilities.LoggerLoad1)-Admin updates the program name {string} {int} field and clicks save button
+[INFO ]2024-05-02 12:47:43.255[main]Utilities.LoggerLoad1)-Admin updates the Description {string} {int}  field and clicks save button
+[INFO ]2024-05-02 12:47:49.965[main]Utilities.LoggerLoad1)-Admin updates the Status {string} {int}  and clicks save button
+[INFO ]2024-05-02 12:47:56.615[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:47:58.672[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:48:00.096[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:48:01.387[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:48:02.688[main]Utilities.LoggerLoad1)-Admin enters only numbers or special char in name and description field {string} {int}
+[INFO ]2024-05-02 12:48:04.132[main]Utilities.LoggerLoad1)-Admin gets a Error message alert invalid details to update
+[INFO ]2024-05-02 12:48:05.536[main]Utilities.LoggerLoad1)-Admin clicks Cancel button on edit modal
+[INFO ]2024-05-02 12:48:05.979[main]Utilities.LoggerLoad1)-Admin can see the Program details modal disappears and can see nothing changed for particular program
+[INFO ]2024-05-02 12:48:06.136[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Delete button on the data table for any row in the Program module
+[INFO ]2024-05-02 12:48:08.259[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a alert open with heading Confirm along with  YES and NO button for deletion in the Program module
+[INFO ]2024-05-02 12:48:10.428[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin should see a message 
+[INFO ]2024-05-02 12:48:10.517[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Deletion alert popup in the Program module
+[INFO ]2024-05-02 12:48:10.547[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks YES button on the alert in the Program module
+[INFO ]2024-05-02 12:48:10.549[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin gets a message Successful Program Deleted alert and able to see that program deleted in the data table in the Program module
+[INFO ]2024-05-02 12:48:12.852[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 12:48:14.967[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks NO button on the alert in the Program module
+[INFO ]2024-05-02 12:48:16.977[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without deleting in the Program module
+[INFO ]2024-05-02 12:48:18.172[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin is on Confirm Delete alert popup in the Program module
+[INFO ]2024-05-02 12:48:20.250[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin clicks Close X Icon on Deletion alert in the Program module
+[INFO ]2024-05-02 12:48:20.254[main]Utilities.LoggerLoad1)-DeleteProgramSteps---Admin can see the deletion alert disappears without any changes in the Program module
+[INFO ]2024-05-02 12:48:26.616[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps
+[INFO ]2024-05-02 12:48:26.616[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks any checkbox in the data table
+[INFO ]2024-05-02 12:48:26.770[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should see common delete option enabled under header Manage Program
+[INFO ]2024-05-02 12:48:26.877[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:48:26.986[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is deleted from the data table
+[INFO ]2024-05-02 12:48:31.216[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting the check box in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:48:32.406[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected program is not deleted from the data table
+[INFO ]2024-05-02 12:48:36.754[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete button after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:48:39.994[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are deleted from the data table
+[INFO ]2024-05-02 12:48:44.242[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin clicks delete after selecting multiple check boxes in the data table to reach on confirm deletion alert
+[INFO ]2024-05-02 12:48:46.441[main]Utilities.LoggerLoad1)-ProgramMultipleDeleteSteps-------Admin should land on Manage Program page and can see the selected programs are not deleted from the data table
+[INFO ]2024-05-02 12:48:53.267[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:48:55.328[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:48:57.342[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:48:57.428[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:48:57.466[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:48:57.499[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column
+[INFO ]2024-05-02 12:48:57.589[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in ascending order
+[INFO ]2024-05-02 12:48:57.703[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Name column
+[INFO ]2024-05-02 12:48:57.908[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program name column to sort Program name in descending order
+[INFO ]2024-05-02 12:48:57.994[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program name column values in descending order
+[INFO ]2024-05-02 12:48:58.316[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:48:58.356[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column
+[INFO ]2024-05-02 12:48:58.441[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in ascending order
+[INFO ]2024-05-02 12:48:58.530[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Description column
+[INFO ]2024-05-02 12:48:58.745[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Desc column to sort Program description in descending order
+[INFO ]2024-05-02 12:48:58.807[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program description column values in descending order
+[INFO ]2024-05-02 12:48:58.999[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is on Manage Program page
+[INFO ]2024-05-02 12:48:59.021[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column
+[INFO ]2024-05-02 12:48:59.066[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in ascending order
+[INFO ]2024-05-02 12:48:59.153[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data is in the ascending order on the table based on Program Status column
+[INFO ]2024-05-02 12:48:59.342[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks the sort icon of program Status column to sort Program status in descending order
+[INFO ]2024-05-02 12:48:59.392[main]Utilities.LoggerLoad1)-ProgramSortingSteps---The data get sorted on the table based on the program status column values in descending order
+[INFO ]2024-05-02 12:48:59.702[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:49:01.734[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:49:01.755[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:49:01.775[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Next page link on the program table
+[INFO ]2024-05-02 12:49:02.897[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the Pagination has Next active link
+[INFO ]2024-05-02 12:49:03.045[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:49:05.076[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:49:05.098[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:49:05.116[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Last page link
+[INFO ]2024-05-02 12:49:06.197[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the last page record on the table with Next page link are disabled
+[INFO ]2024-05-02 12:49:11.392[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:49:13.441[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:49:13.464[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on last page of Program table
+[INFO ]2024-05-02 12:49:18.511[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks Previous page link
+[INFO ]2024-05-02 12:49:19.618[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the previous page record on the table with pagination has previous page link
+[INFO ]2024-05-02 12:49:19.859[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:49:21.897[main]Utilities.LoggerLoad1)-PaginationSteps----Admin should be on Manage Program Page in program module
+[INFO ]2024-05-02 12:49:21.920[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Previous Program page
+[INFO ]2024-05-02 12:49:21.963[main]Utilities.LoggerLoad1)-PaginationSteps---Admin clicks First page link
+[INFO ]2024-05-02 12:49:23.054[main]Utilities.LoggerLoad1)-PaginationSteps---Admin should see the very first page record on the table with Previous page link are disabled
+[INFO ]2024-05-02 12:49:28.283[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:49:30.328[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:49:32.337[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:49:32.415[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:49:32.452[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:49:32.484[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on Batch link on Manage Program page
+[INFO ]2024-05-02 12:49:32.637[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to Batch page
+[INFO ]2024-05-02 12:49:32.748[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin is logged in
+[INFO ]2024-05-02 12:49:34.788[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin clicks on Program on the Navigation Bar
+[INFO ]2024-05-02 12:49:36.796[main]Utilities.LoggerLoad1)-Admin clicks on {string} on the Navigation BarProgram
+[INFO ]2024-05-02 12:49:36.912[main]Utilities.LoggerLoad1)-ProgramSortingSteps---Admin should be redirected to the Manage Program Page
+[INFO ]2024-05-02 12:49:36.938[main]Utilities.LoggerLoad1)-PaginationSteps---Admin is on Manage Program page in program module
+[INFO ]2024-05-02 12:49:36.971[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin clicks on User link on Manage Program page
+[INFO ]2024-05-02 12:49:37.094[main]Utilities.LoggerLoad1)-ProgramNavigationSteps---Admin is re-directed to User page

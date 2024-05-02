@@ -1,7 +1,11 @@
 @tag
  Feature: Sorting Validation
 
+
 	Background: Admin is on Manage Program Page after clicks Program on the navigation bar
+	    When Admin gives the correct LMS portal URL
+    Then Admin should land on the home page
+    Then Admin enters valid credentials and clicks login button
     Given Check if Admin is logged in or not for the Program Mdule
     When Admin clicks on "Program" on the Navigation Bar to reach the Program module
     Then Admin should be redirected to the Manage Program Page in the Program module
